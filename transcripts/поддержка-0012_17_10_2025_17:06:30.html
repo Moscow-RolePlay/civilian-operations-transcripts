@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Moscow RolePlay — поддержка-0012</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1363556047704293517/1423308609642696764/Moscow-RolePlay---Halloween--.png?ex=68dfd6f0&is=68de8570&hm=8b97e7dd285687dc3c28820542b8e03a3c10565281e93ad44dbed6f6d904cb2a&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Боты Moscow RolePlay","bot":true,"verified":false},"1133665013794607114":{"author":"Pancakeboyman_8","avatar":"https://cdn.discordapp.com/avatars/1133665013794607114/1961da5b22b2893186f54433f2a45072.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Понкок 4.0","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      console.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Moscow RolePlay" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2025-10-17T14:06:30.898Z">Тикет Закрыт.<br/>Причина: 213231231<br/>Дата: 17.10.2025, 17:06:30<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0012_17_10_2025_17:06:30.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0012_17_10_2025_17:06:30.html</a></discord-message><discord-message id="m-1428746025383755786" timestamp="2025-10-17T14:06:37.269Z" profile="1413807061883420744">
+<discord-mention type="user">Pancakeboyman_8</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#380066" thumbnail="https://cdn.discordapp.com/attachments/1363556047704293517/1423308609642696764/Moscow-RolePlay---Halloween--.png?ex=68f39d70&is=68f24bf0&hm=d697d6f5b626a5a5d6996249f351659d44c7f832d74b65d70b833a7c192960ba&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">123123</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">1231</discord-embed-field><discord-embed-field field-title="В чём проблема:">23123123</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="pancakeboyman_8" icon="https://cdn.discordapp.com/avatars/1133665013794607114/1961da5b22b2893186f54433f2a45072.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа от персонала</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1428746040005365872" timestamp="2025-10-17T14:06:40.755Z" profile="1133665013794607114">
+3123123<br/>!2
+</discord-message>
+<discord-message id="m-1428746042425217196" timestamp="2025-10-17T14:06:41.332Z" profile="1133665013794607114">
+3
+</discord-message>
+<discord-message id="m-1428746044685942804" timestamp="2025-10-17T14:06:41.871Z" profile="1133665013794607114">
+12
+</discord-message>
+<discord-message id="m-1428746046842081443" timestamp="2025-10-17T14:06:42.385Z" profile="1133665013794607114">
+3
+</discord-message>
+<discord-message id="m-1428746048649560105" timestamp="2025-10-17T14:06:42.816Z" profile="1133665013794607114">
+2
+</discord-message>
+<discord-message id="m-1428746067809275905" timestamp="2025-10-17T14:06:47.384Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
