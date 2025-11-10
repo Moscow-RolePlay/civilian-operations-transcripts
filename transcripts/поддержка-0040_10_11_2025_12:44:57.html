@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0040</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Боты Moscow RolePlay","bot":true,"verified":false},"1042676070614306866":{"author":"dimaplay_66","avatar":"https://cdn.discordapp.com/guilds/1335661836342919259/users/1042676070614306866/avatars/1a7456cca0a9f596f12ab416e922e250.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Сотрудник Бизнеса Соул Гудман и партнеры","bot":false,"verified":false},"1195675629010558986":{"author":"The_Borisik","avatar":"https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false},"1133665013794607114":{"author":"Pancakeboyman_8","avatar":"https://cdn.discordapp.com/avatars/1133665013794607114/1961da5b22b2893186f54433f2a45072.webp","roleColor":"#bf0000","roleIcon":"https://cdn.discordapp.com/role-icons/1371105094619369512/d9552b282c5b89aadd13e4b47560c544.webp","roleName":"Менеджмент","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      console.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2025-11-10T09:44:57.866Z">Тикет Закрыт.<br/>Причина: Дали ответ<br/>Дата: 10.11.2025, 12:44:57<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0040_10_11_2025_12:44:57.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0040_10_11_2025_12:44:57.html</a></discord-message><discord-message id="m-1433399724211179610" timestamp="2025-10-30T10:18:45.531Z" profile="1413807061883420744">
+<discord-mention type="user">dimоoon</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=6912db24&is=691189a4&hm=2ee3c0cf86469fa7b95cc2823bfd75f1bedf3f1d0cee6acebf3a1362190232e6&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">Dimaplay_66</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">Dimooon_66</discord-embed-field><discord-embed-field field-title="В чём проблема:">Создайте пожалуйста для сотрудников юридической фирмы ООО "Соул Гудман и партнёры" отдельный чат, с возможностью кидать фотографии.</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="dimooon_66" icon="https://cdn.discordapp.com/avatars/1042676070614306866/b3a8dbd97388fcaf7a900ffda060ab65.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1433453840560295986" timestamp="2025-10-30T13:53:47.874Z" profile="1042676070614306866">
+кто то мой тикет возьмет
+</discord-message>
+<discord-message id="m-1433807606543286366" timestamp="2025-10-31T13:19:32.257Z" profile="1195675629010558986">
+я думаю отказ
+</discord-message>
+<discord-message id="m-1433807677363851306" timestamp="2025-10-31T13:19:49.142Z" profile="1195675629010558986">
+вы можете создать свою группу
+</discord-message>
+<discord-message id="m-1433847433045213215" timestamp="2025-10-31T15:57:47.635Z" profile="1133665013794607114">
+<discord-mention type="user">dimоoon</discord-mention> перегрузка сервера каналами будет
+</discord-message>
+<discord-message id="m-1433847705368789023" timestamp="2025-10-31T15:58:52.562Z" profile="1133665013794607114">
+Для чего тебе канал нужен?
+</discord-message>
+<discord-message id="m-1433847936214761502" timestamp="2025-10-31T15:59:47.600Z" profile="1133665013794607114">
+Ну мы можем попробовать создать только для юр. компаний, т.к. мы не больше 3 разрешим наверное в принципе, иначе будет дисбаланс
+</discord-message>
+<discord-message id="m-1433852486375968819" timestamp="2025-10-31T16:17:52.443Z" profile="1042676070614306866">
+<discord-reply slot="reply" author="Pancakeboyman_8" avatar="https://cdn.discordapp.com/avatars/1133665013794607114/1961da5b22b2893186f54433f2a45072.webp" role-color="#bf0000"><span data-goto="1433847705368789023">Для чего тебе канал нужен?</span></discord-reply>Для того что бы с юристами своими переписываться
+</discord-message>
+<discord-message id="m-1433852545020858409" timestamp="2025-10-31T16:18:06.425Z" profile="1042676070614306866">
+У меня их много
+</discord-message>
+<discord-message id="m-1433852577241370886" timestamp="2025-10-31T16:18:14.107Z" profile="1042676070614306866">
+Теряю контакты постоянно
+</discord-message>
+<discord-message id="m-1437377483073650750" timestamp="2025-11-10T09:44:57.147Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
