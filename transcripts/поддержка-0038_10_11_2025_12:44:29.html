@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0038</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Боты Moscow RolePlay","bot":true,"verified":false},"760966468715937814":{"author":"bjmajgda","avatar":"https://cdn.discordapp.com/avatars/760966468715937814/cd7f4a31412a407e4f1018cc4d10fd34.webp","roleColor":"#010101","roleIcon":"","roleName":"Состоит в ОПГ","bot":false,"verified":false},"1133665013794607114":{"author":"Pancakeboyman_8","avatar":"https://cdn.discordapp.com/avatars/1133665013794607114/1961da5b22b2893186f54433f2a45072.webp","roleColor":"#bf0000","roleIcon":"https://cdn.discordapp.com/role-icons/1371105094619369512/d9552b282c5b89aadd13e4b47560c544.webp","roleName":"Менеджмент","bot":false,"verified":false},"785881238278897694":{"author":"Rembo20127","avatar":"https://cdn.discordapp.com/avatars/785881238278897694/fc4325be69a6571b73d8cad5493d576f.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      console.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2025-11-10T09:44:29.005Z">Тикет Закрыт.<br/>Причина: Решен вопрос<br/>Дата: 10.11.2025, 12:44:29<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0038_10_11_2025_12:44:29.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0038_10_11_2025_12:44:29.html</a></discord-message><discord-message id="m-1432404426378838016" timestamp="2025-10-27T16:23:48.036Z" profile="1413807061883420744">
+<discord-mention type="user">TTUNKU_PAl</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=6912db24&is=691189a4&hm=2ee3c0cf86469fa7b95cc2823bfd75f1bedf3f1d0cee6acebf3a1362190232e6&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">TTUNKU_PAI</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">bjmajgda</discord-embed-field><discord-embed-field field-title="В чём проблема:">Я так и не понял как сделать свой бизнес</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="ttunku_pal" icon="https://cdn.discordapp.com/avatars/760966468715937814/cd7f4a31412a407e4f1018cc4d10fd34.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1432406409362014309" timestamp="2025-10-27T16:31:40.816Z" profile="1133665013794607114">
+<discord-mention type="user">TTUNKU_PAl</discord-mention> сказали же, смотри каналы #📑┃информация и #💼┃список-бизнесов
+</discord-message>
+<discord-message id="m-1432409885366292590" timestamp="2025-10-27T16:45:29.560Z" profile="785881238278897694">
+<discord-reply slot="reply" author="Pancakeboyman_8" avatar="https://cdn.discordapp.com/avatars/1133665013794607114/1961da5b22b2893186f54433f2a45072.webp" role-color="#bf0000"><span data-goto="1432406409362014309">@760966468715937814 сказали же, смотри каналы #1335661837194104871 и #1432053728919158834</span></discord-reply>Он как сотрудник органов не имеет право владеть бизнесом
+</discord-message>
+<discord-message id="m-1432409913329451123" timestamp="2025-10-27T16:45:36.227Z" profile="785881238278897694">
+Купит его улетит бизнес
+</discord-message>
+<discord-message id="m-1432409923937112145" timestamp="2025-10-27T16:45:38.756Z" profile="785881238278897694">
+Или он с должки
+</discord-message>
+<discord-message id="m-1432412345149427792" timestamp="2025-10-27T16:55:16.018Z" profile="760966468715937814">
+У нас не фулл законы РФ.
+</discord-message>
+<discord-message id="m-1432412979978178621" timestamp="2025-10-27T16:57:47.373Z" profile="760966468715937814">
+<discord-reply slot="reply" author="Rembo20127" avatar="https://cdn.discordapp.com/avatars/785881238278897694/fc4325be69a6571b73d8cad5493d576f.webp" role-color="#ffffff"><span data-goto="1432409885366292590">Он как сотрудник органов не имеет право владеть бизнесом</span></discord-reply>И попрошу не влезать в тикеты, которые вам надрессированны
+</discord-message>
+<discord-message id="m-1432413169799925873" timestamp="2025-10-27T16:58:32.630Z" profile="785881238278897694">
+<discord-reply slot="reply" author="bjmajgda" avatar="https://cdn.discordapp.com/avatars/760966468715937814/cd7f4a31412a407e4f1018cc4d10fd34.webp" role-color="#010101"><span data-goto="1432412345149427792">У нас не фулл законы РФ.</span></discord-reply>Наоборот,  фул законы
+</discord-message>
+<discord-message id="m-1432413227525996674" timestamp="2025-10-27T16:58:46.393Z" profile="760966468715937814">
+<discord-reply slot="reply" author="Rembo20127" avatar="https://cdn.discordapp.com/avatars/785881238278897694/fc4325be69a6571b73d8cad5493d576f.webp" role-color="#ffffff"><span data-goto="1432413169799925873">Наоборот,  фул законы</span></discord-reply>Не услышали меня?<discord-reactions slot="reactions"><discord-reaction emoji="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/274c.svg" count="1"></discord-reaction></discord-reactions>
+</discord-message>
+<discord-message id="m-1432418507420598303" timestamp="2025-10-27T17:19:45.218Z" profile="1133665013794607114">
+<discord-reply slot="reply" author="Rembo20127" avatar="https://cdn.discordapp.com/avatars/785881238278897694/fc4325be69a6571b73d8cad5493d576f.webp" role-color="#ffffff"><span data-goto="1432413169799925873">Наоборот,  фул законы</span></discord-reply>Имеет права, это другая жизнь, не влезайте в тикет
+</discord-message>
+<discord-message id="m-1432426274885734460" timestamp="2025-10-27T17:50:37.126Z" profile="760966468715937814">
+<discord-reply slot="reply" author="Pancakeboyman_8" avatar="https://cdn.discordapp.com/avatars/1133665013794607114/1961da5b22b2893186f54433f2a45072.webp" role-color="#bf0000"><span data-goto="1432418507420598303">Имеет права, это другая жизнь, не влезайте в тикет</span></discord-reply>Дань
+</discord-message>
+<discord-message id="m-1432426301100130466" timestamp="2025-10-27T17:50:43.376Z" profile="760966468715937814">
+А лицензию как купить?
+</discord-message>
+<discord-message id="m-1432426353608622090" timestamp="2025-10-27T17:50:55.895Z" profile="1133665013794607114">
+<discord-reply slot="reply" author="bjmajgda" avatar="https://cdn.discordapp.com/avatars/760966468715937814/cd7f4a31412a407e4f1018cc4d10fd34.webp" role-color="#010101"><span data-goto="1432426301100130466">А лицензию как купить?</span></discord-reply>./магазин
+</discord-message>
+<discord-message id="m-1432427128707612814" timestamp="2025-10-27T17:54:00.693Z" profile="760966468715937814">
+Купил лицензию и запросил бизнес
+</discord-message>
+<discord-message id="m-1432697977507680432" timestamp="2025-10-28T11:50:16.079Z" profile="1133665013794607114">
+<discord-mention type="user">TTUNKU_PAl</discord-mention> тикет закрываем?
+</discord-message>
+<discord-message id="m-1432704219328286730" timestamp="2025-10-28T12:15:04.245Z" profile="760966468715937814">
+<discord-reply slot="reply" author="Pancakeboyman_8" avatar="https://cdn.discordapp.com/avatars/1133665013794607114/1961da5b22b2893186f54433f2a45072.webp" role-color="#bf0000"><span data-goto="1432697977507680432">@760966468715937814 тикет закрываем?</span></discord-reply>Да
+</discord-message>
+<discord-message id="m-1432704257252917390" timestamp="2025-10-28T12:15:13.287Z" profile="760966468715937814">
+Нужно еще свой сервер добавить?
+</discord-message>
+<discord-message id="m-1432715983675461652" timestamp="2025-10-28T13:01:49.084Z" profile="1133665013794607114">
+<discord-reply slot="reply" author="bjmajgda" avatar="https://cdn.discordapp.com/avatars/760966468715937814/cd7f4a31412a407e4f1018cc4d10fd34.webp" role-color="#010101"><span data-goto="1432704257252917390">Нужно еще свой сервер добавить?</span></discord-reply>Без своих серверов
+</discord-message>
+<discord-message id="m-1432716002025541672" timestamp="2025-10-28T13:01:53.459Z" profile="1133665013794607114">
+Всё тут
+</discord-message>
+<discord-message id="m-1432716062473977906" timestamp="2025-10-28T13:02:07.871Z" profile="1133665013794607114">
+Это мини подфракция
+</discord-message>
+<discord-message id="m-1437344431077593148" timestamp="2025-11-10T07:33:36.937Z" profile="785881238278897694">
+<discord-reply slot="reply" author="Pancakeboyman_8" avatar="https://cdn.discordapp.com/avatars/1133665013794607114/1961da5b22b2893186f54433f2a45072.webp" role-color="#bf0000"><span data-goto="1432716062473977906">Это мини подфракция</span></discord-reply>Позакрывать тикеты?
+</discord-message>
+<discord-message id="m-1437375716013375560" timestamp="2025-11-10T09:37:55.847Z" profile="1133665013794607114">
+<discord-reply slot="reply" author="Rembo20127" avatar="https://cdn.discordapp.com/avatars/785881238278897694/fc4325be69a6571b73d8cad5493d576f.webp" role-color="#ffffff"><span data-goto="1437344431077593148">Позакрывать тикеты?</span></discord-reply>Желательно<discord-reactions slot="reactions"><discord-reaction emoji="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/2764-fe0f.svg" count="1"></discord-reaction></discord-reactions>
+</discord-message>
+<discord-message id="m-1437377362424762483" timestamp="2025-11-10T09:44:28.382Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
