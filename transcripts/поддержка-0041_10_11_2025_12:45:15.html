@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0041</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Боты Moscow RolePlay","bot":true,"verified":false},"1195675629010558986":{"author":"The_Borisik","avatar":"https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false},"785881238278897694":{"author":"Rembo20127","avatar":"https://cdn.discordapp.com/avatars/785881238278897694/fc4325be69a6571b73d8cad5493d576f.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false},"843529697853046804":{"author":"Immortson","avatar":"https://cdn.discordapp.com/avatars/843529697853046804/d7f88b6497e32179ebf1481d9fa45e3e.webp","roleColor":"#8799ae","roleIcon":"https://cdn.discordapp.com/role-icons/1436823567735193640/37bada6a3573a942fa6c6f4e78173a25.webp","roleName":"Администрация Московского Суда","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      console.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2025-11-10T09:45:15.905Z">Тикет Закрыт.<br/>Причина: Дали ответ<br/>Дата: 10.11.2025, 12:45:15<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0041_10_11_2025_12:45:15.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0041_10_11_2025_12:45:15.html</a></discord-message><discord-message id="m-1436691071785635840" timestamp="2025-11-08T12:17:23.943Z" profile="1413807061883420744">
+<discord-mention type="user">Нeroson</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=6912db24&is=691189a4&hm=2ee3c0cf86469fa7b95cc2823bfd75f1bedf3f1d0cee6acebf3a1362190232e6&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">ь1чышьгы_</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">the_borisik</discord-embed-field><discord-embed-field field-title="В чём проблема:">а можно стать иноагентом по сути</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="m1xsimus_" icon="https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1436711513543938198" timestamp="2025-11-08T13:38:37.638Z" profile="785881238278897694">
+<discord-reply slot="reply" author="Гражданские Операции MRP" avatar="https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp" role-color="#ffffff"><span data-goto="1436691071785635840">@1195675629010558986</span></discord-reply>Могу признать тебч иноагентом
+</discord-message>
+<discord-message id="m-1436712171437424661" timestamp="2025-11-08T13:41:14.492Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="Rembo20127" avatar="https://cdn.discordapp.com/avatars/785881238278897694/fc4325be69a6571b73d8cad5493d576f.webp" role-color="#ffffff"><span data-goto="1436711513543938198">Могу признать тебч иноагентом</span></discord-reply>концертов нелегальных сделаю
+</discord-message>
+<discord-message id="m-1436712201418313901" timestamp="2025-11-08T13:41:21.640Z" profile="1195675629010558986">
+и потом делай
+</discord-message>
+<discord-message id="m-1436789066459906221" timestamp="2025-11-08T18:46:47.694Z" profile="843529697853046804">
+Можно
+</discord-message>
+<discord-message id="m-1436789070003966136" timestamp="2025-11-08T18:46:48.539Z" profile="843529697853046804">
+ахаха
+</discord-message>
+<discord-message id="m-1436789217438208090" timestamp="2025-11-08T18:47:23.690Z" profile="1195675629010558986">
+место монеточки купюрочкой буду
+</discord-message>
+<discord-message id="m-1436789221938692307" timestamp="2025-11-08T18:47:24.763Z" profile="1195675629010558986">
+в игре
+</discord-message>
+<discord-message id="m-1436789702652072162" timestamp="2025-11-08T18:49:19.374Z" profile="843529697853046804">
+Монеточка инноагент?
+</discord-message>
+<discord-message id="m-1436789814836859022" timestamp="2025-11-08T18:49:46.121Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="Immortson" avatar="https://cdn.discordapp.com/avatars/843529697853046804/d7f88b6497e32179ebf1481d9fa45e3e.webp" role-color="#8799ae"><span data-goto="1436789702652072162">Монеточка инноагент?</span></discord-reply>да
+</discord-message>
+<discord-message id="m-1436789868993974482" timestamp="2025-11-08T18:49:59.033Z" profile="843529697853046804">
+Знак качества
+</discord-message>
+<discord-message id="m-1436790028867993743" timestamp="2025-11-08T18:50:37.150Z" profile="843529697853046804">
+Наша козачка<discord-attachments slot="attachments"><discord-attachment type="image" filename="image.png" url="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/attachments/1436790028867993743_1436790028675190874.png"></discord-attachment></discord-attachments>
+</discord-message>
+<discord-message id="m-1436790156555452528" timestamp="2025-11-08T18:51:07.593Z" profile="1195675629010558986">
+я буду диджеем кыргыз
+</discord-message>
+<discord-message id="m-1436790166957064255" timestamp="2025-11-08T18:51:10.073Z" profile="1195675629010558986">
+нелегальным
+</discord-message>
+<discord-message id="m-1436790195394576509" timestamp="2025-11-08T18:51:16.853Z" profile="1195675629010558986">
+еще лучше придумал<discord-reactions slot="reactions"><discord-reaction emoji="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/2764-fe0f.svg" count="1"></discord-reaction></discord-reactions>
+</discord-message>
+<discord-message id="m-1436810737237491835" timestamp="2025-11-08T20:12:54.410Z" profile="785881238278897694">
+<discord-reply slot="reply" author="The_Borisik" avatar="https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp" role-color="#ffffff"><span data-goto="1436790195394576509">еще лучше придумал</span></discord-reply>Выйди на улицу лебединое озеро спой
+</discord-message>
+<discord-message id="m-1436810773618884689" timestamp="2025-11-08T20:13:03.084Z" profile="785881238278897694">
+И "Солдат"
+</discord-message>
+<discord-message id="m-1436810790098309131" timestamp="2025-11-08T20:13:07.013Z" profile="785881238278897694">
+<discord-reply slot="reply" author="Rembo20127" avatar="https://cdn.discordapp.com/avatars/785881238278897694/fc4325be69a6571b73d8cad5493d576f.webp" role-color="#ffffff"><span data-goto="1436810773618884689">И "Солдат"</span></discord-reply>От монеточки
+</discord-message>
+<discord-message id="m-1437377558722248734" timestamp="2025-11-10T09:45:15.183Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
