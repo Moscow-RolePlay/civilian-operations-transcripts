@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0045</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Боты Moscow RolePlay","bot":true,"verified":false},"1091623600206921739":{"author":"Murzik_2013","avatar":"https://cdn.discordapp.com/avatars/1091623600206921739/5078e68516ff9f261efc6577224ec7d0.webp","roleColor":"#2a88cb","roleIcon":"https://cdn.discordapp.com/role-icons/1350768922240090192/5ae03a3c0b88aee7a550d3740a937614.webp","roleName":"Гражданин России","bot":false,"verified":false},"785881238278897694":{"author":"Rembo20127","avatar":"https://cdn.discordapp.com/avatars/785881238278897694/fc4325be69a6571b73d8cad5493d576f.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false},"1059736820876853248":{"author":"[SK-001] koronsdf","avatar":"https://cdn.discordapp.com/avatars/1059736820876853248/8902009ecc4a79d63a59cbafd549f509.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Отдел Обеспечения Собственной Безопасности СК РФ","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      console.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2025-11-11T19:49:45.635Z">Тикет Закрыт.<br/>Причина: Дали ответ<br/>Дата: 11.11.2025, 22:49:45<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0045_11_11_2025_22:49:45.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0045_11_11_2025_22:49:45.html</a></discord-message><discord-message id="m-1437878124900515850" timestamp="2025-11-11T18:54:19.460Z" profile="1413807061883420744">
+<discord-mention type="user">Mattrix</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=6914d564&is=691383e4&hm=521de9bd8a3c7c36b9266aa1d779776d7d296b0986824a3e88bf4969e4e3ee31&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">Mirza</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">Murzik_2013</discord-embed-field><discord-embed-field field-title="В чём проблема:">если я пойду в ск я буду выходить на дежурство только когда дело какое то и если меня не примут то я должен увольнятся с спецназа? И можно поменять ник на Murzik_2013 просто тут возраст маленький и проверку пройти не могу на Murzik_2013 там 18 к кспи а тут 500кспи</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="mirza_aviation" icon="https://cdn.discordapp.com/avatars/1091623600206921739/5078e68516ff9f261efc6577224ec7d0.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1437879422056271962" timestamp="2025-11-11T18:59:28.726Z" profile="1091623600206921739">
+И ск вообще расследует дела да правильно?
+</discord-message>
+<discord-message id="m-1437880321918898237" timestamp="2025-11-11T19:03:03.270Z" profile="785881238278897694">
+<discord-mention type="user">Петр Алексеевич Романов</discord-mention>
+</discord-message>
+<discord-message id="m-1437880344308089085" timestamp="2025-11-11T19:03:08.608Z" profile="785881238278897694">
+Давай
+</discord-message>
+<discord-message id="m-1437880350691950774" timestamp="2025-11-11T19:03:10.130Z" profile="785881238278897694">
+Делай
+</discord-message>
+<discord-message id="m-1437880967137333418" timestamp="2025-11-11T19:05:37.102Z" profile="1059736820876853248">
+<discord-reply slot="reply" author="Гражданские Операции MRP" avatar="https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp" role-color="#ffffff"><span data-goto="1437878124900515850">@1091623600206921739</span></discord-reply>Ск это гражданская работа, увольняться с фракции не обязательно. На смену заходить когда зайдете за команду в игре. Набор сейчас закрыл
+</discord-message>
+<discord-message id="m-1437890849735442553" timestamp="2025-11-11T19:44:53.297Z" profile="785881238278897694">
+<discord-reply slot="reply" author="Murzik_2013" avatar="https://cdn.discordapp.com/avatars/1091623600206921739/5078e68516ff9f261efc6577224ec7d0.webp" role-color="#2a88cb"><span data-goto="1437879422056271962">И ск вообще расследует дела да правильно?</span></discord-reply>По поводу ника
+</discord-message>
+<discord-message id="m-1437890894404780103" timestamp="2025-11-11T19:45:03.947Z" profile="785881238278897694">
+Там в блокслинке перерегайтесь
+</discord-message>
+<discord-message id="m-1437891060725579776" timestamp="2025-11-11T19:45:43.601Z" profile="1091623600206921739">
+<discord-reply slot="reply" author="Rembo20127" avatar="https://cdn.discordapp.com/avatars/785881238278897694/fc4325be69a6571b73d8cad5493d576f.webp" role-color="#ffffff"><span data-goto="1437890894404780103">Там в блокслинке перерегайтесь</span></discord-reply>Не могу возраст рандомный не хватает
+</discord-message>
+<discord-message id="m-1437891306578907198" timestamp="2025-11-11T19:46:42.217Z" profile="785881238278897694">
+<discord-reply slot="reply" author="Murzik_2013" avatar="https://cdn.discordapp.com/avatars/1091623600206921739/5078e68516ff9f261efc6577224ec7d0.webp" role-color="#2a88cb"><span data-goto="1437891060725579776">Не могу возраст рандомный не хватает</span></discord-reply>Что?
+</discord-message>
+<discord-message id="m-1437891385041883207" timestamp="2025-11-11T19:47:00.924Z" profile="1091623600206921739">
+Тоесть возраст маленький стоит там
+</discord-message>
+<discord-message id="m-1437891590206132305" timestamp="2025-11-11T19:47:49.839Z" profile="785881238278897694">
+<discord-reply slot="reply" author="Murzik_2013" avatar="https://cdn.discordapp.com/avatars/1091623600206921739/5078e68516ff9f261efc6577224ec7d0.webp" role-color="#2a88cb"><span data-goto="1437891385041883207">Тоесть возраст маленький стоит там</span></discord-reply>У блокслинка есть ограничение
+</discord-message>
+<discord-message id="m-1437891593725284403" timestamp="2025-11-11T19:47:50.678Z" profile="785881238278897694">
+Ого
+</discord-message>
+<discord-message id="m-1437891650784591912" timestamp="2025-11-11T19:48:04.282Z" profile="1091623600206921739">
+Да
+</discord-message>
+<discord-message id="m-1437891928501784657" timestamp="2025-11-11T19:49:10.495Z" profile="785881238278897694">
+<discord-reply slot="reply" author="Murzik_2013" avatar="https://cdn.discordapp.com/avatars/1091623600206921739/5078e68516ff9f261efc6577224ec7d0.webp" role-color="#2a88cb"><span data-goto="1437891650784591912">Да</span></discord-reply>Ну я вам поменяю
+</discord-message>
+<discord-message id="m-1437891964132524075" timestamp="2025-11-11T19:49:18.990Z" profile="785881238278897694">
+Менджмент надеюсь не заагрится
+</discord-message>
+<discord-message id="m-1437891984202141706" timestamp="2025-11-11T19:49:23.775Z" profile="1091623600206921739">
+Спасибо
+</discord-message>
+<discord-message id="m-1437892020642254918" timestamp="2025-11-11T19:49:32.463Z" profile="1091623600206921739">
+Можете закрывать тикет
+</discord-message>
+<discord-message id="m-1437892072886767627" timestamp="2025-11-11T19:49:44.919Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
