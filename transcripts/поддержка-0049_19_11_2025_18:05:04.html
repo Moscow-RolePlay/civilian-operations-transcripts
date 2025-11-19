@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0049</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Боты Moscow RolePlay","bot":true,"verified":false},"1439039788597645344":{"author":"evil_AP2","avatar":"https://cdn.discordapp.com/avatars/1439039788597645344/a87b9d93453a9375a951c40ad72ac078.webp","roleColor":"#2a88cb","roleIcon":"https://cdn.discordapp.com/role-icons/1350768922240090192/5ae03a3c0b88aee7a550d3740a937614.webp","roleName":"Гражданин России","bot":false,"verified":false},"785881238278897694":{"author":"Rembo20127","avatar":"https://cdn.discordapp.com/avatars/785881238278897694/fc4325be69a6571b73d8cad5493d576f.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false},"1195675629010558986":{"author":"The_Borisik","avatar":"https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp","roleColor":"#48bd9e","roleIcon":"","roleName":"Сотрудник Бизнеса Сvер банк","bot":false,"verified":false},"970713754411089940":{"author":"Sashapozzzz","avatar":"https://cdn.discordapp.com/avatars/970713754411089940/dbfd25bfadaa8932af4e855aec82b4f1.webp","roleColor":"#be0000","roleIcon":"https://cdn.discordapp.com/role-icons/1429186796285329709/28a274be0e6da351a74f85d4744f2f28.webp","roleName":"Статус \"Кремль\"","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      console.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2025-11-19T15:05:04.377Z">Тикет Закрыт.<br/>Причина: Помогли игроку<br/>Дата: 19.11.2025, 18:05:04<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0049_19_11_2025_18:05:04.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0049_19_11_2025_18:05:04.html</a></discord-message><discord-message id="m-1440415778124861460" timestamp="2025-11-18T18:58:03.136Z" profile="1413807061883420744">
+<discord-mention type="user">beme</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=691eb8a4&is=691d6724&hm=b19ec00968700f90bd7c67cfc1bc103057cf95f6bd2e2781141159057da4d8ef&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">bem4ik717</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">evil_AP2</discord-embed-field><discord-embed-field field-title="В чём проблема:">как создать офиц опг</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="bem4ik717" icon="https://cdn.discordapp.com/avatars/1439039788597645344/a87b9d93453a9375a951c40ad72ac078.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1440417662491431042" timestamp="2025-11-18T19:05:32.404Z" profile="1439039788597645344">
+ну на крайняк на вступить в какое то опг
+</discord-message>
+<discord-message id="m-1440424333041205349" timestamp="2025-11-18T19:32:02.787Z" profile="785881238278897694">
+<discord-reply slot="reply" author="evil_AP2" avatar="https://cdn.discordapp.com/avatars/1439039788597645344/a87b9d93453a9375a951c40ad72ac078.webp" role-color="#2a88cb"><span data-goto="1440417662491431042">ну на крайняк на вступить в какое то опг</span></discord-reply>Я сюда не имею право вмешиваться но опг сейчас не создаются
+</discord-message>
+<discord-message id="m-1440424375726899220" timestamp="2025-11-18T19:32:12.964Z" profile="1439039788597645344">
+<discord-reply slot="reply" author="Rembo20127" avatar="https://cdn.discordapp.com/avatars/785881238278897694/fc4325be69a6571b73d8cad5493d576f.webp" role-color="#ffffff"><span data-goto="1440424333041205349">Я сюда не имею право вмешиваться но опг сейчас не создаются</span></discord-reply>вступить как
+</discord-message>
+<discord-message id="m-1440424468026490961" timestamp="2025-11-18T19:32:34.970Z" profile="785881238278897694">
+<discord-reply slot="reply" author="evil_AP2" avatar="https://cdn.discordapp.com/avatars/1439039788597645344/a87b9d93453a9375a951c40ad72ac078.webp" role-color="#2a88cb"><span data-goto="1440424375726899220">вступить как</span></discord-reply>Лидером писать
+</discord-message>
+<discord-message id="m-1440424783601864714" timestamp="2025-11-18T19:33:50.209Z" profile="1439039788597645344">
+<discord-reply slot="reply" author="Rembo20127" avatar="https://cdn.discordapp.com/avatars/785881238278897694/fc4325be69a6571b73d8cad5493d576f.webp" role-color="#ffffff"><span data-goto="1440424468026490961">Лидером писать</span></discord-reply>где то есть список лф опг?
+</discord-message>
+<discord-message id="m-1440425215451463821" timestamp="2025-11-18T19:35:33.170Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="evil_AP2" avatar="https://cdn.discordapp.com/avatars/1439039788597645344/a87b9d93453a9375a951c40ad72ac078.webp" role-color="#2a88cb"><span data-goto="1440424783601864714">где то есть список лф опг?</span></discord-reply>SY6GHKHG888<br/>Noobasos228335<br/>siksty<br/>robaki12
+</discord-message>
+<discord-message id="m-1440719281762340884" timestamp="2025-11-19T15:04:04.042Z" profile="970713754411089940">
+<discord-reply slot="reply" author="Гражданские Операции MRP" avatar="https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp" role-color="#ffffff"><span data-goto="1440415778124861460">@1439039788597645344</span></discord-reply>Уже 4 ОПГ есть, так что сейчас нельзя создать ОПГ
+</discord-message>
+<discord-message id="m-1440719338708664424" timestamp="2025-11-19T15:04:17.619Z" profile="970713754411089940">
+Тикет закрываем?
+</discord-message>
+<discord-message id="m-1440719379665915976" timestamp="2025-11-19T15:04:27.384Z" profile="970713754411089940">
+<discord-mention type="user">beme</discord-mention>
+</discord-message>
+<discord-message id="m-1440719422267457536" timestamp="2025-11-19T15:04:37.541Z" profile="1439039788597645344">
+<discord-reply slot="reply" author="Sashapozzzz" avatar="https://cdn.discordapp.com/avatars/970713754411089940/dbfd25bfadaa8932af4e855aec82b4f1.webp" role-color="#be0000"><span data-goto="1440719338708664424">Тикет закрываем?</span></discord-reply>закрывай
+</discord-message>
+<discord-message id="m-1440719531717951701" timestamp="2025-11-19T15:05:03.636Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
