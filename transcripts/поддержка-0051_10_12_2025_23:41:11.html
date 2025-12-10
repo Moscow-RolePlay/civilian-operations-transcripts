@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0051</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#7d8be4","roleIcon":"https://cdn.discordapp.com/role-icons/1350149964533076050/1f17c74edccece36d2f0c52197943c97.webp","roleName":"Боты","bot":true,"verified":false},"1411384931548135604":{"author":"dimkasik125","avatar":"https://cdn.discordapp.com/avatars/1411384931548135604/46ab63371ff5b13f80f2205941b2f4a3.webp","roleColor":"#2a88cb","roleIcon":"https://cdn.discordapp.com/role-icons/1350768922240090192/5ae03a3c0b88aee7a550d3740a937614.webp","roleName":"Гражданин России","bot":false,"verified":false},"1195675629010558986":{"author":"[DT-001] The_Borisik","avatar":"https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false},"1133665013794607114":{"author":"Pancakeboyman_8","avatar":"https://cdn.discordapp.com/avatars/1133665013794607114/1961da5b22b2893186f54433f2a45072.webp","roleColor":"#bf0000","roleIcon":"https://cdn.discordapp.com/role-icons/1371105094619369512/d9552b282c5b89aadd13e4b47560c544.webp","roleName":"Менеджмент","bot":false,"verified":false},"970713754411089940":{"author":"[MP-050] Sashapozzzz","avatar":"https://cdn.discordapp.com/avatars/970713754411089940/dbfd25bfadaa8932af4e855aec82b4f1.webp","roleColor":"#214420","roleIcon":"https://cdn.discordapp.com/role-icons/1350139901340946493/9190c8dbf3781ffea9d19223f5433fc4.webp","roleName":"Состоит в Московском Паркинге","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      console.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2025-12-10T20:41:11.924Z">Тикет Закрыт.<br/>Причина: Тикет неактивен.<br/>Дата: 10.12.2025, 23:41:11<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0051_10_12_2025_23:41:11.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0051_10_12_2025_23:41:11.html</a></discord-message><discord-message id="m-1440656645951848448" timestamp="2025-11-19T10:55:10.501Z" profile="1413807061883420744">
+<discord-mention type="user">Lort_Kyrt</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=693b10e4&is=6939bf64&hm=9036dcc10fffd9a062d529fde12c079a049f87d853d779b289da7aa1f6bcaaf9&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">Lort_Kyrt</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">dimkasik125</discord-embed-field><discord-embed-field field-title="В чём проблема:">В отказе бизнеса было указано что бизнес занят что есть такой бизнес на стройке я открыл сейчас список бизнесов и не увидел не одного по типу стройки и так же не увидел занятый 702 постал где и находится стройка</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="lort_kyrt" icon="https://cdn.discordapp.com/avatars/1411384931548135604/46ab63371ff5b13f80f2205941b2f4a3.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1440656928526045214" timestamp="2025-11-19T10:56:17.872Z" profile="1411384931548135604">
+<discord-reply slot="reply" author="Гражданские Операции MRP" avatar="https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp" role-color="#7d8be4"><span data-goto="1440656645951848448">@1411384931548135604</span></discord-reply><strong>407</strong> поправочка не 702
+</discord-message>
+<discord-message id="m-1440667328068190260" timestamp="2025-11-19T11:37:37.316Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="Deleted User" avatar="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" role-color="#ffffff"><span>[deleted]</span></discord-reply>
+</discord-message>
+<discord-message id="m-1440667389363617914" timestamp="2025-11-19T11:37:51.930Z" profile="1195675629010558986">
+Такой тип бизнеса уже есть
+</discord-message>
+<discord-message id="m-1440680287293014119" timestamp="2025-11-19T12:29:07.036Z" profile="1411384931548135604">
+<discord-reply slot="reply" author="[DT-001] The_Borisik" avatar="https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp" role-color="#ffffff"><span data-goto="1440667389363617914">Такой тип бизнеса уже есть</span></discord-reply><discord-attachments slot="attachments"><discord-attachment type="image" filename="image0.jpg" url="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/attachments/1440680287293014119_1440680287037165628.jpg"></discord-attachment></discord-attachments>
+</discord-message>
+<discord-message id="m-1440680424593690644" timestamp="2025-11-19T12:29:39.771Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="dimkasik125" avatar="https://cdn.discordapp.com/avatars/1411384931548135604/46ab63371ff5b13f80f2205941b2f4a3.webp" role-color="#2a88cb"><span data-goto="1440680287293014119">[deleted]</span></discord-reply>Обновите список
+</discord-message>
+<discord-message id="m-1440680449394610256" timestamp="2025-11-19T12:29:45.684Z" profile="1195675629010558986">
+Ц вас старый
+</discord-message>
+<discord-message id="m-1440717310191992904" timestamp="2025-11-19T14:56:13.983Z" profile="1133665013794607114">
+<discord-reply slot="reply" author="dimkasik125" avatar="https://cdn.discordapp.com/avatars/1411384931548135604/46ab63371ff5b13f80f2205941b2f4a3.webp" role-color="#2a88cb"><span data-goto="1440680287293014119">[deleted]</span></discord-reply>У вас что то с документом
+</discord-message>
+<discord-message id="m-1446970528706334820" timestamp="2025-12-06T21:04:17.456Z" profile="970713754411089940">
+<discord-mention type="user">Нeroson</discord-mention>
+</discord-message>
+<discord-message id="m-1448414265491853476" timestamp="2025-12-10T20:41:11.129Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
