@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0061</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#7d8be4","roleIcon":"https://cdn.discordapp.com/role-icons/1350149964533076050/1f17c74edccece36d2f0c52197943c97.webp","roleName":"Боты","bot":true,"verified":false},"1195675629010558986":{"author":"[DT-001] The_Borisik","avatar":"https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false},"970713754411089940":{"author":"sashslis33333221121212","avatar":"https://cdn.discordapp.com/avatars/970713754411089940/dbfd25bfadaa8932af4e855aec82b4f1.webp","roleColor":"#ffffff","roleIcon":"","roleName":"User","bot":false,"verified":false},"585394439715946518":{"author":"savingbox3","avatar":"https://cdn.discordapp.com/avatars/585394439715946518/04af921e6292ebde6389b9f28a153b80.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      console.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2025-12-11T13:20:09.359Z">Тикет Закрыт.<br/>Причина: Ошибка была исправлена. В следующий раз прошу не ставить баланс вашего бизнеса на красное!<br/>Дата: 11.12.2025, 16:20:09<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0061_11_12_2025_16:20:09.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0061_11_12_2025_16:20:09.html</a></discord-message><discord-message id="m-1446873846346158100" timestamp="2025-12-06T14:40:06.585Z" profile="1413807061883420744">
+<discord-mention type="user">Нeroson</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=693bb9a4&is=693a6824&hm=26454a897d9b304b419106280ff31e898d3c9e66acc33d37df5d5c374c56464a&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">m1xsimus_</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">the_boriisk</discord-embed-field><discord-embed-field field-title="В чём проблема:">почему у меня налоговая забрала все деньги в бизнесе</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="m1xsimus_" icon="https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1446873890558181416" timestamp="2025-12-06T14:40:17.126Z" profile="1413807061883420744">
+<discord-embed title="Баланс бизнеса: Безопасные Качественные Дороги" slot="embeds" color="#229400"><discord-embed-description slot="description"><strong>В банке:</strong> <img src="<a href="https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"</a> alt="MRPCO_Money" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> -800,000</discord-embed-description></discord-embed>
+</discord-message>
+<discord-message id="m-1446873974871953479" timestamp="2025-12-06T14:40:37.228Z" profile="1195675629010558986">
+какимм образом у меня -800 тысяч
+</discord-message>
+<discord-message id="m-1446970819279323307" timestamp="2025-12-06T21:05:26.734Z" profile="970713754411089940">
+Здравствуйте
+</discord-message>
+<discord-message id="m-1447108563876188300" timestamp="2025-12-07T06:12:47.605Z" profile="1195675629010558986">
+ну можно вернуть деньги
+</discord-message>
+<discord-message id="m-1447108580854468609" timestamp="2025-12-07T06:12:51.653Z" profile="1195675629010558986">
+ибо как это произошло
+</discord-message>
+<discord-message id="m-1447144828591673408" timestamp="2025-12-07T08:36:53.787Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="sashslis33333221121212" avatar="https://cdn.discordapp.com/avatars/970713754411089940/dbfd25bfadaa8932af4e855aec82b4f1.webp" role-color="#ffffff"><span data-goto="1446970819279323307">Здравствуйте</span></discord-reply>здраствуйте<discord-reactions slot="reactions"><discord-reaction emoji="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/2764-fe0f.svg" count="1"></discord-reaction></discord-reactions>
+</discord-message>
+<discord-message id="m-1447145039766487142" timestamp="2025-12-07T08:37:44.135Z" profile="1195675629010558986">
+я щас эту недо контору взорву
+</discord-message>
+<discord-message id="m-1447145053465083945" timestamp="2025-12-07T08:37:47.401Z" profile="1195675629010558986">
+где мои деньги
+</discord-message>
+<discord-message id="m-1448663928233000991" timestamp="2025-12-11T13:13:15.365Z" profile="585394439715946518">
+<discord-mention type="user">Нeroson</discord-mention>
+</discord-message>
+<discord-message id="m-1448663940316926054" timestamp="2025-12-11T13:13:18.246Z" profile="585394439715946518">
+проблема решена?
+</discord-message>
+<discord-message id="m-1448663955135529045" timestamp="2025-12-11T13:13:21.779Z" profile="585394439715946518">
+или всё так же?
+</discord-message>
+<discord-message id="m-1448663990560493719" timestamp="2025-12-11T13:13:30.225Z" profile="1195675629010558986">
+щас
+</discord-message>
+<discord-message id="m-1448664111981269204" timestamp="2025-12-11T13:13:59.174Z" profile="1413807061883420744">
+<discord-embed title="Баланс бизнеса: Безопасные Качественные Дороги" slot="embeds" color="#229400"><discord-embed-description slot="description"><strong>В банке:</strong> <img src="<a href="https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"</a> alt="MRPCO_Money" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> -800,000</discord-embed-description></discord-embed>
+</discord-message>
+<discord-message id="m-1448664139269537823" timestamp="2025-12-11T13:14:05.680Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="savingbox3" avatar="https://cdn.discordapp.com/avatars/585394439715946518/04af921e6292ebde6389b9f28a153b80.webp" role-color="#ffffff"><span data-goto="1448663940316926054">проблема решена?</span></discord-reply>Нет
+</discord-message>
+<discord-message id="m-1448664448318443674" timestamp="2025-12-11T13:15:19.363Z" profile="585394439715946518">
+если я тебе их выдам, то ты сможешь закинуть их на бизнес?
+</discord-message>
+<discord-message id="m-1448664780104536206" timestamp="2025-12-11T13:16:38.467Z" profile="585394439715946518">
+<discord-reply slot="reply" author="savingbox3" avatar="https://cdn.discordapp.com/avatars/585394439715946518/04af921e6292ebde6389b9f28a153b80.webp" role-color="#ffffff"><span data-goto="1448664448318443674">если я тебе их выдам, то ты сможешь закинуть их на бизнес?</span></discord-reply><discord-mention type="user">Нeroson</discord-mention>
+</discord-message>
+<discord-message id="m-1448664784579985531" timestamp="2025-12-11T13:16:39.534Z" profile="1195675629010558986">
+Да
+</discord-message>
+<discord-message id="m-1448664792889036896" timestamp="2025-12-11T13:16:41.515Z" profile="1195675629010558986">
+вроде
+</discord-message>
+<discord-message id="m-1448664824182476842" timestamp="2025-12-11T13:16:48.976Z" profile="585394439715946518">
+пробуй
+</discord-message>
+<discord-message id="m-1448664861990195322" timestamp="2025-12-11T13:16:57.990Z" profile="1413807061883420744">
+<discord-embed title="Баланс m1xsimus_" slot="embeds" color="#229400"><discord-embed-description slot="description"><strong>Наличные:</strong> <img src="<a href="https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"</a> alt="MRPCO_Money" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> 215,227<br/><strong>В банке:</strong> <img src="<a href="https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"</a> alt="MRPCO_Money" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> 900,000<br/><strong>Всего:</strong> <img src="<a href="https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"</a> alt="MRPCO_Money" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> 1,115,227</discord-embed-description><discord-embed-footer slot="footer">Ранг в рейтинге: #7</discord-embed-footer></discord-embed>
+</discord-message>
+<discord-message id="m-1448664924510228583" timestamp="2025-12-11T13:17:12.896Z" profile="1195675629010558986">
+Сек команду найду
+</discord-message>
+<discord-message id="m-1448665124737912842" timestamp="2025-12-11T13:18:00.634Z" profile="585394439715946518">
+вот
+</discord-message>
+<discord-message id="m-1448665135282393251" timestamp="2025-12-11T13:18:03.148Z" profile="585394439715946518">
+я сам добавил
+</discord-message>
+<discord-message id="m-1448665156275011788" timestamp="2025-12-11T13:18:08.153Z" profile="1195675629010558986">
+Щас
+</discord-message>
+<discord-message id="m-1448665176143429783" timestamp="2025-12-11T13:18:12.890Z" profile="1413807061883420744">
+<discord-embed title="kaptan4984" slot="embeds" color="#229400"><discord-embed-description slot="description">Вы забрали <img src="<a href="https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"</a> alt="MRPCO_Money" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> <strong>800,000</strong> у пользователя <discord-mention type="user">Нeroson</discord-mention>.</discord-embed-description></discord-embed>
+</discord-message>
+<discord-message id="m-1448665177997443227" timestamp="2025-12-11T13:18:13.332Z" profile="1195675629010558986">
+Я не смог с баланса своего
+</discord-message>
+<discord-message id="m-1448665215397924977" timestamp="2025-12-11T13:18:22.249Z" profile="585394439715946518">
+я у тебя с баланса твоего тогда забрал
+</discord-message>
+<discord-message id="m-1448665229725794324" timestamp="2025-12-11T13:18:25.665Z" profile="585394439715946518">
+и добавил на бизнес
+</discord-message>
+<discord-message id="m-1448665250189803710" timestamp="2025-12-11T13:18:30.544Z" profile="585394439715946518">
+проверь баланс бизнеса теперь
+</discord-message>
+<discord-message id="m-1448665463281287321" timestamp="2025-12-11T13:19:21.349Z" profile="1413807061883420744">
+<discord-embed title="Баланс бизнеса: Безопасные Качественные Дороги" slot="embeds" color="#229400"><discord-embed-description slot="description"><strong>В банке:</strong> <img src="<a href="https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"</a> alt="MRPCO_Money" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> 1</discord-embed-description></discord-embed>
+</discord-message>
+<discord-message id="m-1448665522286629095" timestamp="2025-12-11T13:19:35.417Z" profile="1195675629010558986">
+1 тенге на балансе
+</discord-message>
+<discord-message id="m-1448665611235491973" timestamp="2025-12-11T13:19:56.624Z" profile="1195675629010558986">
+ладно пойдёт
+</discord-message>
+<discord-message id="m-1448665661374202081" timestamp="2025-12-11T13:20:08.578Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
