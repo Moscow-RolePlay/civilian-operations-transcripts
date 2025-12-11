@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0067</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#7d8be4","roleIcon":"https://cdn.discordapp.com/role-icons/1350149964533076050/1f17c74edccece36d2f0c52197943c97.webp","roleName":"Боты","bot":true,"verified":false},"1353009377048662127":{"author":"Killer103042","avatar":"https://cdn.discordapp.com/avatars/1353009377048662127/cfc8c43bb3a6794249b388ed9ed771dd.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Оружейная у Расторгуева","bot":false,"verified":false},"585394439715946518":{"author":"savingbox3","avatar":"https://cdn.discordapp.com/avatars/585394439715946518/04af921e6292ebde6389b9f28a153b80.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      console.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2025-12-11T14:20:07.001Z">Тикет Закрыт.<br/>Причина: Проблема была решена.<br/>Дата: 11.12.2025, 17:20:07<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0067_11_12_2025_17:20:07.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0067_11_12_2025_17:20:07.html</a></discord-message><discord-message id="m-1448666587673399318" timestamp="2025-12-11T13:23:49.425Z" profile="1413807061883420744">
+<discord-mention type="user">dream10236</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=693bb9a4&is=693a6824&hm=26454a897d9b304b419106280ff31e898d3c9e66acc33d37df5d5c374c56464a&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">dream10236</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">Killer103042</discord-embed-field><discord-embed-field field-title="В чём проблема:">Хочу изменить бизнес, есть возможность ?</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="dream10236" icon="https://cdn.discordapp.com/avatars/1353009377048662127/cfc8c43bb3a6794249b388ed9ed771dd.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1448669020768178196" timestamp="2025-12-11T13:33:29.520Z" profile="585394439715946518">
+что конкретно?
+</discord-message>
+<discord-message id="m-1448679460068130997" timestamp="2025-12-11T14:14:58.443Z" profile="1353009377048662127">
+Названия, тему бизнеса, услуги,
+</discord-message>
+<discord-message id="m-1448679909798187108" timestamp="2025-12-11T14:16:45.667Z" profile="585394439715946518">
+подайте пожалуйста повторно заявку через команду
+</discord-message>
+<discord-message id="m-1448679952257122477" timestamp="2025-12-11T14:16:55.790Z" profile="1353009377048662127">
+Заявку на бизнес
+</discord-message>
+<discord-message id="m-1448679959001563136" timestamp="2025-12-11T14:16:57.398Z" profile="1353009377048662127">
+?
+</discord-message>
+<discord-message id="m-1448679968493142107" timestamp="2025-12-11T14:16:59.661Z" profile="585394439715946518">
+да
+</discord-message>
+<discord-message id="m-1448679984725229690" timestamp="2025-12-11T14:17:03.531Z" profile="1353009377048662127">
+Сейчас
+</discord-message>
+<discord-message id="m-1448679985765285948" timestamp="2025-12-11T14:17:03.779Z" profile="585394439715946518">
+именно через команду
+</discord-message>
+<discord-message id="m-1448680215680389130" timestamp="2025-12-11T14:17:58.595Z" profile="1353009377048662127">
+<discord-reply slot="reply" author="savingbox3" avatar="https://cdn.discordapp.com/avatars/585394439715946518/04af921e6292ebde6389b9f28a153b80.webp" role-color="#ffffff"><span data-goto="1448679985765285948">именно через команду</span></discord-reply>/создать бизнес?
+</discord-message>
+<discord-message id="m-1448680234072412212" timestamp="2025-12-11T14:18:02.980Z" profile="585394439715946518">
+да
+</discord-message>
+<discord-message id="m-1448680242884644914" timestamp="2025-12-11T14:18:05.081Z" profile="1353009377048662127">
+А тогда все
+</discord-message>
+<discord-message id="m-1448680292222111923" timestamp="2025-12-11T14:18:16.844Z" profile="1353009377048662127">
+Отправил
+</discord-message>
+<discord-message id="m-1448680396069015572" timestamp="2025-12-11T14:18:41.603Z" profile="585394439715946518">
+скажу сразу, что если это частная охранная компания, то отклоняю
+</discord-message>
+<discord-message id="m-1448680423646298223" timestamp="2025-12-11T14:18:48.178Z" profile="585394439715946518">
+у нас в разработке уже официальный чоп
+</discord-message>
+<discord-message id="m-1448680470240956514" timestamp="2025-12-11T14:18:59.287Z" profile="1353009377048662127">
+Ну блин как догадались.
+</discord-message>
+<discord-message id="m-1448680487626215477" timestamp="2025-12-11T14:19:03.432Z" profile="1353009377048662127">
+Я гбр открыть хотел
+</discord-message>
+<discord-message id="m-1448680530089611396" timestamp="2025-12-11T14:19:13.556Z" profile="585394439715946518">
+одно и то же
+</discord-message>
+<discord-message id="m-1448680556505333943" timestamp="2025-12-11T14:19:19.854Z" profile="1353009377048662127">
+Блин.
+</discord-message>
+<discord-message id="m-1448680595797311549" timestamp="2025-12-11T14:19:29.222Z" profile="1353009377048662127">
+Тогда закрываем тикет
+</discord-message>
+<discord-message id="m-1448680612155097220" timestamp="2025-12-11T14:19:33.122Z" profile="585394439715946518">
+удалять этот бизнес?<discord-attachments slot="attachments"><discord-attachment type="image" filename="image.png" url="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/attachments/1448680612155097220_1448680611819683943.png"></discord-attachment></discord-attachments>
+</discord-message>
+<discord-message id="m-1448680650000306197" timestamp="2025-12-11T14:19:42.145Z" profile="1353009377048662127">
+Не
+</discord-message>
+<discord-message id="m-1448680696532041841" timestamp="2025-12-11T14:19:53.239Z" profile="585394439715946518">
+понял, закрываю
+</discord-message>
+<discord-message id="m-1448680699119927480" timestamp="2025-12-11T14:19:53.856Z" profile="1353009377048662127">
+Оставьте
+</discord-message>
+<discord-message id="m-1448680713380696166" timestamp="2025-12-11T14:19:57.256Z" profile="1353009377048662127">
+Спасибо!
+</discord-message>
+<discord-message id="m-1448680751573766286" timestamp="2025-12-11T14:20:06.362Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
