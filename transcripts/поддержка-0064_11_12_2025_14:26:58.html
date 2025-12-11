@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0064</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#7d8be4","roleIcon":"https://cdn.discordapp.com/role-icons/1350149964533076050/1f17c74edccece36d2f0c52197943c97.webp","roleName":"Боты","bot":true,"verified":false},"342692728527650820":{"author":"Kopobo4kiN","avatar":"https://cdn.discordapp.com/avatars/342692728527650820/6835b229252d8fa065ea14da29b76d59.webp","roleColor":"#2a88cb","roleIcon":"https://cdn.discordapp.com/role-icons/1350768922240090192/5ae03a3c0b88aee7a550d3740a937614.webp","roleName":"Гражданин России","bot":false,"verified":false},"585394439715946518":{"author":"savingbox3","avatar":"https://cdn.discordapp.com/avatars/585394439715946518/04af921e6292ebde6389b9f28a153b80.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      console.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2025-12-11T11:26:58.058Z">Тикет Закрыт.<br/>Причина: Не указана<br/>Дата: 11.12.2025, 14:26:58<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0064_11_12_2025_14:26:58.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0064_11_12_2025_14:26:58.html</a></discord-message><discord-message id="m-1448438889151725648" timestamp="2025-12-10T22:19:01.867Z" profile="1413807061883420744">
+<discord-mention type="user">Tnchum</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=693bb9a4&is=693a6824&hm=26454a897d9b304b419106280ff31e898d3c9e66acc33d37df5d5c374c56464a&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">Kopobo4kiN</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">PancakeYT</discord-embed-field><discord-embed-field field-title="В чём проблема:">Где можно ознакомиться с актуальным списком ОПГ?<br/>Если опг имеет офис, то бизнес на том же месте не возможен ?</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="tnchum" icon="https://cdn.discordapp.com/avatars/342692728527650820/6835b229252d8fa065ea14da29b76d59.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1448631390429122570" timestamp="2025-12-11T11:03:57.748Z" profile="342692728527650820">
+<discord-mention type="user">KapitaN</discord-mention>
+</discord-message>
+<discord-message id="m-1448631818768224347" timestamp="2025-12-11T11:05:39.872Z" profile="585394439715946518">
+Чоп это и есть бизнес, а двух бизнесов в одном месте быть не может
+</discord-message>
+<discord-message id="m-1448634355609108520" timestamp="2025-12-11T11:15:44.702Z" profile="342692728527650820">
+Причем тут чоп
+</discord-message>
+<discord-message id="m-1448634415054852227" timestamp="2025-12-11T11:15:58.875Z" profile="342692728527650820">
+Я говорю конкретно про свой бизнес в виде Нефтегаза заправок
+</discord-message>
+<discord-message id="m-1448634559246893148" timestamp="2025-12-11T11:16:33.253Z" profile="342692728527650820">
+То есть, на месте где стоит работа водителя грузовика топлива, если мне память не изменяет, то там ОПГ?
+</discord-message>
+<discord-message id="m-1448636029845377106" timestamp="2025-12-11T11:22:23.871Z" profile="342692728527650820">
+<discord-mention type="user">KapitaN</discord-mention>
+</discord-message>
+<discord-message id="m-1448636576513921167" timestamp="2025-12-11T11:24:34.207Z" profile="585394439715946518">
+а, увидел
+</discord-message>
+<discord-message id="m-1448636587226300426" timestamp="2025-12-11T11:24:36.761Z" profile="585394439715946518">
+ошибся чутка
+</discord-message>
+<discord-message id="m-1448636620554371103" timestamp="2025-12-11T11:24:44.707Z" profile="585394439715946518">
+можно
+</discord-message>
+<discord-message id="m-1448636643153154202" timestamp="2025-12-11T11:24:50.095Z" profile="585394439715946518">
+в таком случае можно
+</discord-message>
+<discord-message id="m-1448636695338553456" timestamp="2025-12-11T11:25:02.537Z" profile="342692728527650820">
+<discord-reply slot="reply" author="savingbox3" avatar="https://cdn.discordapp.com/avatars/585394439715946518/04af921e6292ebde6389b9f28a153b80.webp" role-color="#ffffff"><span data-goto="1448636643153154202">в таком случае можно</span></discord-reply>Вы посмотрели мою заявку?
+</discord-message>
+<discord-message id="m-1448636780789104791" timestamp="2025-12-11T11:25:22.910Z" profile="342692728527650820">
+Не примите мои слова как попытку торопить вас в принятие першений
+</discord-message>
+<discord-message id="m-1448636784283222098" timestamp="2025-12-11T11:25:23.743Z" profile="585394439715946518">
+вот прям меня не отпускаете
+</discord-message>
+<discord-message id="m-1448636804747235410" timestamp="2025-12-11T11:25:28.622Z" profile="585394439715946518">
+всё будет
+</discord-message>
+<discord-message id="m-1448636832513527969" timestamp="2025-12-11T11:25:35.242Z" profile="342692728527650820">
+Спасибо большое
+</discord-message>
+<discord-message id="m-1448636860917219348" timestamp="2025-12-11T11:25:42.014Z" profile="585394439715946518">
+вам спасибо
+</discord-message>
+<discord-message id="m-1448636876121706589" timestamp="2025-12-11T11:25:45.639Z" profile="342692728527650820">
+Я в тикете 0063, распишу кое что еще
+</discord-message>
+<discord-message id="m-1448636940130975845" timestamp="2025-12-11T11:26:00.900Z" profile="342692728527650820">
+Дай бог вам базы нато в вашем дворе
+</discord-message>
+<discord-message id="m-1448636961370673305" timestamp="2025-12-11T11:26:05.964Z" profile="342692728527650820">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/2764-fe0f.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/2764-fe0f.svg"</a> alt="❤️" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> <img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1fae1.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1fae1.svg"</a> alt="🫡" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>
+</discord-message>
+<discord-message id="m-1448637176932991039" timestamp="2025-12-11T11:26:57.358Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
