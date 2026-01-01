@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0070</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#7d8be4","roleIcon":"https://cdn.discordapp.com/role-icons/1350149964533076050/1f17c74edccece36d2f0c52197943c97.webp","roleName":"Боты","bot":true,"verified":false},"1448059157897809940":{"author":"Bacon_baconkin","avatar":"https://cdn.discordapp.com/avatars/1448059157897809940/d43b9a4b068c4223ff282a3cf3c43130.webp","roleColor":"#ffffff","roleIcon":"","roleName":"RUS OIL I GAS N GO","bot":false,"verified":false},"970713754411089940":{"author":"[DT-015] Sashapozzzz","avatar":"https://cdn.discordapp.com/avatars/970713754411089940/b54826138ad8cb06e0dc23e8772bbb5b.webp","roleColor":"#16dd97","roleIcon":"","roleName":"Заместитель Министра Департамента Транспорта","bot":false,"verified":false},"585394439715946518":{"author":"savingbox3","avatar":"https://cdn.discordapp.com/avatars/585394439715946518/04af921e6292ebde6389b9f28a153b80.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false},"1133665013794607114":{"author":"Pancakeboyman_8","avatar":"https://cdn.discordapp.com/avatars/1133665013794607114/1961da5b22b2893186f54433f2a45072.webp","roleColor":"#bf0000","roleIcon":"https://cdn.discordapp.com/role-icons/1371105094619369512/d9552b282c5b89aadd13e4b47560c544.webp","roleName":"Менеджмент","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      logger.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2026-01-01T14:47:02.705Z">Тикет Закрыт.<br/>Причина: Не указана<br/>Дата: 01.01.2026, 17:47:02<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0070_01_01_2026_17:47:02.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0070_01_01_2026_17:47:02.html</a></discord-message><discord-message id="m-1451132524293128314" timestamp="2025-12-18T08:42:34.530Z" profile="1413807061883420744">
+<discord-mention type="user">Logan Britva</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=69576924&is=695617a4&hm=0b895c01b589d9face30b277b8ba42633d6261060b18cdf4e66121aab487b756&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">loganbritva.</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">bacon_baconkin</discord-embed-field><discord-embed-field field-title="В чём проблема:">баг???</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="loganbritva." icon="https://cdn.discordapp.com/avatars/1448059157897809940/d43b9a4b068c4223ff282a3cf3c43130.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1451132542508859515" timestamp="2025-12-18T08:42:38.873Z" profile="1448059157897809940">
+я не понял
+</discord-message>
+<discord-message id="m-1451132599195009069" timestamp="2025-12-18T08:42:52.388Z" profile="1448059157897809940">
+<discord-attachments slot="attachments"><discord-attachment type="image" filename="2025-12-18_114147.png" url="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/attachments/1451132599195009069_1451132598096232526.png"></discord-attachment><discord-attachment type="image" filename="2025-12-18_114155.png" url="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/attachments/1451132599195009069_1451132598435709059.png"></discord-attachment><discord-attachment type="image" filename="2025-12-18_114200.png" url="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/attachments/1451132599195009069_1451132598930772028.png"></discord-attachment></discord-attachments>
+</discord-message>
+<discord-message id="m-1451132619923128351" timestamp="2025-12-18T08:42:57.330Z" profile="1448059157897809940">
+<discord-attachments slot="attachments"><discord-attachment type="image" filename="2025-12-18_114204.png" url="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/attachments/1451132619923128351_1451132619789176853.png"></discord-attachment></discord-attachments>
+</discord-message>
+<discord-message id="m-1451132631092826224" timestamp="2025-12-18T08:42:59.993Z" profile="1448059157897809940">
+<discord-attachments slot="attachments"><discord-attachment type="image" filename="2025-12-18_114210.png" url="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/attachments/1451132631092826224_1451132630807478342.png"></discord-attachment></discord-attachments>
+</discord-message>
+<discord-message id="m-1451132673857814651" timestamp="2025-12-18T08:43:10.189Z" profile="1448059157897809940">
+когда я делаю ставку,то деньги просто пропадают
+</discord-message>
+<discord-message id="m-1451132708452434064" timestamp="2025-12-18T08:43:18.437Z" profile="1448059157897809940">
+не думаю что мне невезло
+</discord-message>
+<discord-message id="m-1451132756208914576" timestamp="2025-12-18T08:43:29.823Z" profile="1448059157897809940">
+там темболее ниче не показывает
+</discord-message>
+<discord-message id="m-1451132797178875995" timestamp="2025-12-18T08:43:39.591Z" profile="1448059157897809940">
+и показывает 0 сек
+</discord-message>
+<discord-message id="m-1451132809048494205" timestamp="2025-12-18T08:43:42.421Z" profile="1448059157897809940">
+сразу
+</discord-message>
+<discord-message id="m-1451194957149896704" timestamp="2025-12-18T12:50:39.683Z" profile="1448059157897809940">
+<discord-mention type="user">Orvile</discord-mention> <discord-mention type="user">KapitaN</discord-mention>
+</discord-message>
+<discord-message id="m-1451195062028468255" timestamp="2025-12-18T12:51:04.688Z" profile="585394439715946518">
+тут скорее нужно <discord-mention type="user">Pancakeboyman_8</discord-mention>
+</discord-message>
+<discord-message id="m-1456297673501180026" timestamp="2026-01-01T14:47:02.065Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
