@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0075</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#7d8be4","roleIcon":"https://cdn.discordapp.com/role-icons/1350149964533076050/1f17c74edccece36d2f0c52197943c97.webp","roleName":"Боты","bot":true,"verified":false},"994164698654187580":{"author":"gagegaming99","avatar":"https://cdn.discordapp.com/avatars/994164698654187580/3f372e3b7871841a0098bb01bdf586dc.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Сотрудник Бизнеса Соул Гудман и партнеры","bot":false,"verified":false},"970713754411089940":{"author":"[DT-015] Sashapozzzz","avatar":"https://cdn.discordapp.com/avatars/970713754411089940/b54826138ad8cb06e0dc23e8772bbb5b.webp","roleColor":"#16dd97","roleIcon":"","roleName":"Заместитель Министра Департамента Транспорта","bot":false,"verified":false},"1195675629010558986":{"author":"[DT-001] The_Borisik","avatar":"https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      logger.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2026-01-16T11:16:15.225Z">Тикет Закрыт.<br/>Причина: Не указана<br/>Дата: 16.01.2026, 14:16:15<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0075_16_01_2026_14:16:15.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0075_16_01_2026_14:16:15.html</a></discord-message><discord-message id="m-1457519742691840184" timestamp="2026-01-04T23:43:06.065Z" profile="1413807061883420744">
+<discord-mention type="user">yeolkaa</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=696b2fa4&is=6969de24&hm=8337af1b5d110081910cf8849c557899907a1d6b4b8f3df71a0b109159b949ee&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">yeolkaa</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">gagegaming99</discord-embed-field><discord-embed-field field-title="В чём проблема:">Хочу создать ОПГ или ЧОП.<br/>Открыты ли заявки или можно организовать такое ( ЧК) как бизнес ?</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="yeolkaa" icon="https://cdn.discordapp.com/avatars/994164698654187580/637b110a1338545cb06944a3c28e10fe.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1457523883258155038" timestamp="2026-01-04T23:59:33.253Z" profile="994164698654187580">
+Ну типа по сути это ЧОП ( или ЧК)
+</discord-message>
+<discord-message id="m-1457523925385744527" timestamp="2026-01-04T23:59:43.297Z" profile="994164698654187580">
+Но в целях своей деятельности может нарить закон
+</discord-message>
+<discord-message id="m-1457858036256342026" timestamp="2026-01-05T22:07:21.536Z" profile="994164698654187580">
+<discord-mention type="user">Orvile</discord-mention>
+</discord-message>
+<discord-message id="m-1457858067969343663" timestamp="2026-01-05T22:07:29.097Z" profile="994164698654187580">
+На тебя вся надежда на ответ
+</discord-message>
+<discord-message id="m-1457858719923572792" timestamp="2026-01-05T22:10:04.535Z" profile="994164698654187580">
+|| <discord-mention type="user">Нeroson</discord-mention>  ответь пж, ты в сети просто, я заплачу  ||
+</discord-message>
+<discord-message id="m-1458025797867798681" timestamp="2026-01-06T09:13:59.021Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="gagegaming99" avatar="https://cdn.discordapp.com/avatars/994164698654187580/3f372e3b7871841a0098bb01bdf586dc.webp" role-color="#ffffff"><span data-goto="1457858719923572792">|| @1195675629010558986  ответь пж, ты в сети просто, я заплачу  ||</span></discord-reply>Я не был в сети
+</discord-message>
+<discord-message id="m-1458025938674651158" timestamp="2026-01-06T09:14:32.592Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="Гражданские Операции MRP" avatar="https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp" role-color="#7d8be4"><span data-goto="1457519742691840184">@994164698654187580</span></discord-reply>Сейчас вроде 2 опг открытых
+</discord-message>
+<discord-message id="m-1458026025215721513" timestamp="2026-01-06T09:14:53.225Z" profile="1195675629010558986">
+Так что если успейте набрать народ (минимум 3 если не ошибаюсь) и подать заявку
+</discord-message>
+<discord-message id="m-1458026042479611904" timestamp="2026-01-06T09:14:57.341Z" profile="1195675629010558986">
+У вас будет шанс открыть свое опг
+</discord-message>
+<discord-message id="m-1458026063987740774" timestamp="2026-01-06T09:15:02.469Z" profile="994164698654187580">
+<discord-reply slot="reply" author="[DT-001] The_Borisik" avatar="https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp" role-color="#ffffff"><span data-goto="1458025797867798681">Я не был в сети</span></discord-reply>понял
+</discord-message>
+<discord-message id="m-1458031597873008845" timestamp="2026-01-06T09:37:01.850Z" profile="994164698654187580">
+а где писать заявку на ОПГ?
+</discord-message>
+<discord-message id="m-1458033464141021278" timestamp="2026-01-06T09:44:26.803Z" profile="1195675629010558986">
+Вообще в инфорамции
+</discord-message>
+<discord-message id="m-1458033492284805204" timestamp="2026-01-06T09:44:33.513Z" profile="1195675629010558986">
+Но там кажись забыли обновить информацию
+</discord-message>
+<discord-message id="m-1458033531702874154" timestamp="2026-01-06T09:44:42.911Z" profile="994164698654187580">
+<discord-reply slot="reply" author="[DT-001] The_Borisik" avatar="https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp" role-color="#ffffff"><span data-goto="1458025938674651158">Сейчас вроде 2 опг открытых</span></discord-reply>А частные компании считаются ОПГ если они могут нарушать закон иногда?
+</discord-message>
+<discord-message id="m-1458033580524568660" timestamp="2026-01-06T09:44:54.551Z" profile="1195675629010558986">
+Нет
+</discord-message>
+<discord-message id="m-1458033672384151698" timestamp="2026-01-06T09:45:16.452Z" profile="1195675629010558986">
+Т.к у меня недостаточно нужной информации передаю тикет менеджеру ГО <discord-mention type="user">Orvile</discord-mention>
+</discord-message>
+<discord-message id="m-1458039332467114208" timestamp="2026-01-06T10:07:45.921Z" profile="970713754411089940">
+<img src="<a href="https://cdn.discordapp.com/emojis/1431970429714829413.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1431970429714829413.png?size=32"</a> alt="CivOps" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>
+</discord-message>
+<discord-message id="m-1458039810911371327" timestamp="2026-01-06T10:09:39.991Z" profile="994164698654187580">
+<img src="<a href="https://cdn.discordapp.com/emojis/1431970429714829413.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1431970429714829413.png?size=32"</a> alt="CivOps" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>
+</discord-message>
+<discord-message id="m-1458042001550344285" timestamp="2026-01-06T10:18:22.280Z" profile="994164698654187580">
+<discord-reply slot="reply" author="[DT-015] Sashapozzzz" avatar="https://cdn.discordapp.com/avatars/970713754411089940/b54826138ad8cb06e0dc23e8772bbb5b.webp" role-color="#16dd97"><span data-goto="1458039332467114208">:1431970429714829413:</span></discord-reply>Ну, в итоге ЧК / ОПГ может быть?
+</discord-message>
+<discord-message id="m-1458042179141501019" timestamp="2026-01-06T10:19:04.621Z" profile="970713754411089940">
+опг
+</discord-message>
+<discord-message id="m-1458045393068621889" timestamp="2026-01-06T10:31:50.881Z" profile="994164698654187580">
+<discord-reply slot="reply" author="[DT-015] Sashapozzzz" avatar="https://cdn.discordapp.com/avatars/970713754411089940/b54826138ad8cb06e0dc23e8772bbb5b.webp" role-color="#16dd97"><span data-goto="1458042179141501019">опг</span></discord-reply>А где заявку подавать?
+</discord-message>
+<discord-message id="m-1458045415143374920" timestamp="2026-01-06T10:31:56.144Z" profile="994164698654187580">
+Я не могу найти форму
+</discord-message>
+<discord-message id="m-1458045462123773995" timestamp="2026-01-06T10:32:07.345Z" profile="994164698654187580">
+Только активные ОПГ находу
+</discord-message>
+<discord-message id="m-1458167188098646222" timestamp="2026-01-06T18:35:49.079Z" profile="994164698654187580">
+<discord-mention type="user">Orvile</discord-mention> ты забыл ответить <img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f641.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f641.svg"</a> alt="🙁" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>
+</discord-message>
+<discord-message id="m-1459144591239549113" timestamp="2026-01-09T11:19:40.147Z" profile="994164698654187580">
+эх
+</discord-message>
+<discord-message id="m-1459144719375273996" timestamp="2026-01-09T11:20:10.697Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="gagegaming99" avatar="https://cdn.discordapp.com/avatars/994164698654187580/3f372e3b7871841a0098bb01bdf586dc.webp" role-color="#ffffff"><span data-goto="1459144591239549113">эх</span></discord-reply>занятый человек
+</discord-message>
+<discord-message id="m-1459144725713125386" timestamp="2026-01-09T11:20:12.208Z" profile="1195675629010558986">
+ждите
+</discord-message>
+<discord-message id="m-1461680393978904783" timestamp="2026-01-16T11:16:02.633Z" profile="994164698654187580">
+Пуооулцшушм
+</discord-message>
+<discord-message id="m-1461680444142522513" timestamp="2026-01-16T11:16:14.593Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
