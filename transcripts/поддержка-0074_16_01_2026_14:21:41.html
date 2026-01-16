@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0074</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#7d8be4","roleIcon":"https://cdn.discordapp.com/role-icons/1350149964533076050/1f17c74edccece36d2f0c52197943c97.webp","roleName":"Боты","bot":true,"verified":false},"1025753055381164072":{"author":"Zhigul29","avatar":"https://cdn.discordapp.com/avatars/1025753055381164072/f95d482cc800c529359c4972cd6d5ee6.webp","roleColor":"#2a88cb","roleIcon":"https://cdn.discordapp.com/role-icons/1350768922240090192/5ae03a3c0b88aee7a550d3740a937614.webp","roleName":"Гражданин России","bot":false,"verified":false},"1195675629010558986":{"author":"[DT-001] The_Borisik","avatar":"https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp","roleColor":"#ffffff","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false},"970713754411089940":{"author":"[DT-015] Sashapozzzz","avatar":"https://cdn.discordapp.com/avatars/970713754411089940/b54826138ad8cb06e0dc23e8772bbb5b.webp","roleColor":"#16dd97","roleIcon":"","roleName":"Заместитель Министра Департамента Транспорта","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      logger.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2026-01-16T11:21:41.605Z">Тикет Закрыт.<br/>Причина: Проблема решена<br/>Дата: 16.01.2026, 14:21:41<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0074_16_01_2026_14:21:41.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0074_16_01_2026_14:21:41.html</a></discord-message><discord-message id="m-1455859844346019956" timestamp="2025-12-31T09:47:15.460Z" profile="1413807061883420744">
+<discord-mention type="user">Бархатный Жабька</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=696b2fa4&is=6969de24&hm=8337af1b5d110081910cf8849c557899907a1d6b4b8f3df71a0b109159b949ee&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">lyagushechka_</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">Zhigul29</discord-embed-field><discord-embed-field field-title="В чём проблема:">1. Можно ли вступить одновременно в ЦОДД и МП<br/>2. Если да, то можете скинуть пример (гугл не работает из-за род. контр)</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="lyagushechka_" icon="https://cdn.discordapp.com/avatars/1025753055381164072/f95d482cc800c529359c4972cd6d5ee6.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1455860264795766910" timestamp="2025-12-31T09:48:55.703Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="Гражданские Операции MRP" avatar="https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp" role-color="#7d8be4"><span data-goto="1455859844346019956">@1025753055381164072</span></discord-reply>1. Нет но можно вступить в будущем в МП и Мосгостранс
+</discord-message>
+<discord-message id="m-1455860316662665280" timestamp="2025-12-31T09:49:08.069Z" profile="1195675629010558986">
+И ЦОДД и Мосгостранс
+</discord-message>
+<discord-message id="m-1455912330817962015" timestamp="2025-12-31T13:15:49.210Z" profile="1025753055381164072">
+Можно вступить тогда в ЦОДД
+</discord-message>
+<discord-message id="m-1455912403085557813" timestamp="2025-12-31T13:16:06.440Z" profile="1195675629010558986">
+Да
+</discord-message>
+<discord-message id="m-1455912699040104602" timestamp="2025-12-31T13:17:17.001Z" profile="1025753055381164072">
+Если не сложно, можете скинуть шаблон в ЦОДД
+</discord-message>
+<discord-message id="m-1455912751036764251" timestamp="2025-12-31T13:17:29.398Z" profile="1025753055381164072">
+я везде так делал, из-за того, что не могу подать в гугле
+</discord-message>
+<discord-message id="m-1455917524917948630" timestamp="2025-12-31T13:36:27.580Z" profile="1025753055381164072">
+<discord-reply slot="reply" author="[DT-001] The_Borisik" avatar="https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp" role-color="#ffffff"><span data-goto="1455912403085557813">Да</span></discord-reply>возможно такое?
+</discord-message>
+<discord-message id="m-1455917576759803904" timestamp="2025-12-31T13:36:39.940Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="Zhigul29" avatar="https://cdn.discordapp.com/avatars/1025753055381164072/f95d482cc800c529359c4972cd6d5ee6.webp" role-color="#2a88cb"><span data-goto="1455917524917948630">возможно такое?</span></discord-reply>Нет
+</discord-message>
+<discord-message id="m-1455917851767607478" timestamp="2025-12-31T13:37:45.507Z" profile="1025753055381164072">
+Жалко, но ладно
+</discord-message>
+<discord-message id="m-1455954932623605864" timestamp="2025-12-31T16:05:06.272Z" profile="1025753055381164072">
+А если я скажу пожалуйста
+</discord-message>
+<discord-message id="m-1456628115114823732" timestamp="2026-01-02T12:40:05.485Z" profile="970713754411089940">
+Нет
+</discord-message>
+<discord-message id="m-1456628137130463286" timestamp="2026-01-02T12:40:10.734Z" profile="970713754411089940">
+Тикет закрываем?
+</discord-message>
+<discord-message id="m-1458561865994080277" timestamp="2026-01-07T20:44:07.622Z" profile="1195675629010558986">
+<discord-mention type="user">Бархатный Жабька</discord-mention> Тикет закрываю?
+</discord-message>
+<discord-message id="m-1458567801793937428" timestamp="2026-01-07T21:07:42.827Z" profile="1025753055381164072">
+<discord-reply slot="reply" author="[DT-001] The_Borisik" avatar="https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp" role-color="#ffffff"><span data-goto="1458561865994080277">@1025753055381164072 Тикет закрываю?</span></discord-reply>ну получается
+</discord-message>
+<discord-message id="m-1461681813432041625" timestamp="2026-01-16T11:21:41.057Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
