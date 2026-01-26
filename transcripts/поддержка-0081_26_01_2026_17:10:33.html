@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0081</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#7d8be4","roleIcon":"https://cdn.discordapp.com/role-icons/1350149964533076050/1f17c74edccece36d2f0c52197943c97.webp","roleName":"Боты","bot":true,"verified":false},"1394987798829858896":{"author":"hs3nshs73","avatar":"https://cdn.discordapp.com/avatars/1394987798829858896/2ea5427e3047e107b0ccbbb2e0f41157.webp","roleColor":"#2a88cb","roleIcon":"https://cdn.discordapp.com/role-icons/1350768922240090192/5ae03a3c0b88aee7a550d3740a937614.webp","roleName":"Гражданин России","bot":false,"verified":false},"1195675629010558986":{"author":"[DT-001] The_Borisik","avatar":"https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp","roleColor":"#a8002c","roleIcon":"","roleName":"Сотрудник мэрии г. Москвы","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      logger.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2026-01-26T14:10:33.941Z">Тикет Закрыт.<br/>Причина: Заявку я за вас подал. Приятного вечера<br/>Дата: 26.01.2026, 17:10:33<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0081_26_01_2026_17:10:33.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0081_26_01_2026_17:10:33.html</a></discord-message><discord-message id="m-1464199180883988604" timestamp="2026-01-23T10:04:48.228Z" profile="1413807061883420744">
+<discord-mention type="user">Moog</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=69785ea4&is=69770d24&hm=0d3eed3d43558a2769778353888d2fcb3337f1c4b6666b59e063ed9329a54e23&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">Sanya009604</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">hs3nshs73</discord-embed-field><discord-embed-field field-title="В чём проблема:">не получается загрузить лого опг помогите</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="sanya009604" icon="https://cdn.discordapp.com/avatars/1394987798829858896/2ea5427e3047e107b0ccbbb2e0f41157.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1464199347867746452" timestamp="2026-01-23T10:05:28.040Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="Гражданские Операции MRP" avatar="https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp" role-color="#7d8be4"><span data-goto="1464199180883988604">@1394987798829858896</span></discord-reply>Чем могу помочь
+</discord-message>
+<discord-message id="m-1464199365097820173" timestamp="2026-01-23T10:05:32.148Z" profile="1195675629010558986">
+У вас проблемы в заявке?
+</discord-message>
+<discord-message id="m-1464199563945705608" timestamp="2026-01-23T10:06:19.557Z" profile="1394987798829858896">
+да
+</discord-message>
+<discord-message id="m-1464199574934519958" timestamp="2026-01-23T10:06:22.177Z" profile="1394987798829858896">
+<discord-mention type="user">Нeroson</discord-mention>
+</discord-message>
+<discord-message id="m-1464199622141415444" timestamp="2026-01-23T10:06:33.432Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="hs3nshs73" avatar="https://cdn.discordapp.com/avatars/1394987798829858896/2ea5427e3047e107b0ccbbb2e0f41157.webp" role-color="#2a88cb"><span data-goto="1464199563945705608">да</span></discord-reply>Какие
+</discord-message>
+<discord-message id="m-1464199655004049489" timestamp="2026-01-23T10:06:41.267Z" profile="1394987798829858896">
+загрузку логотипа не получается сделать
+</discord-message>
+<discord-message id="m-1464199704538779710" timestamp="2026-01-23T10:06:53.077Z" profile="1394987798829858896">
+<discord-attachments slot="attachments"><discord-attachment type="image" filename="1769162542833.png" url="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/attachments/1464199704538779710_1464199704261693524.png"></discord-attachment></discord-attachments>
+</discord-message>
+<discord-message id="m-1464199711442341899" timestamp="2026-01-23T10:06:54.723Z" profile="1394987798829858896">
+там простои
+</discord-message>
+<discord-message id="m-1464199734855209010" timestamp="2026-01-23T10:07:00.305Z" profile="1394987798829858896">
+там просили
+</discord-message>
+<discord-message id="m-1464199773040017555" timestamp="2026-01-23T10:07:09.409Z" profile="1394987798829858896">
+мне ии сделало
+</discord-message>
+<discord-message id="m-1464199790920204370" timestamp="2026-01-23T10:07:13.672Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="hs3nshs73" avatar="https://cdn.discordapp.com/avatars/1394987798829858896/2ea5427e3047e107b0ccbbb2e0f41157.webp" role-color="#2a88cb"><span data-goto="1464199655004049489">загрузку логотипа не получается сделать</span></discord-reply>У вас там ошибка?
+</discord-message>
+<discord-message id="m-1464199816408989952" timestamp="2026-01-23T10:07:19.749Z" profile="1394987798829858896">
+мгм
+</discord-message>
+<discord-message id="m-1464199831844294718" timestamp="2026-01-23T10:07:23.429Z" profile="1394987798829858896">
+сервер отклонил
+</discord-message>
+<discord-message id="m-1464199851444277248" timestamp="2026-01-23T10:07:28.102Z" profile="1394987798829858896">
+загрузку
+</discord-message>
+<discord-message id="m-1464199972709859494" timestamp="2026-01-23T10:07:57.014Z" profile="1195675629010558986">
+Попробуйте ВПН тогда включить/выключить
+</discord-message>
+<discord-message id="m-1464200023217537149" timestamp="2026-01-23T10:08:09.056Z" profile="1394987798829858896">
+у меня нету запрета в дискорде
+</discord-message>
+<discord-message id="m-1464200128440176716" timestamp="2026-01-23T10:08:34.143Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="hs3nshs73" avatar="https://cdn.discordapp.com/avatars/1394987798829858896/2ea5427e3047e107b0ccbbb2e0f41157.webp" role-color="#2a88cb"><span data-goto="1464200023217537149">у меня нету запрета в дискорде</span></discord-reply>В заявке
+</discord-message>
+<discord-message id="m-1464200338524471363" timestamp="2026-01-23T10:09:24.231Z" profile="1394987798829858896">
+смотрите
+</discord-message>
+<discord-message id="m-1464200371726581760" timestamp="2026-01-23T10:09:32.147Z" profile="1394987798829858896">
+<discord-attachments slot="attachments"><discord-attachment type="image" filename="Screenshot_2026-01-23-15-09-11-430_com.android.chrome.jpg" url="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/attachments/1464200371726581760_1464200371428655146.jpg"></discord-attachment></discord-attachments>
+</discord-message>
+<discord-message id="m-1464200473883185163" timestamp="2026-01-23T10:09:56.503Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="hs3nshs73" avatar="https://cdn.discordapp.com/avatars/1394987798829858896/2ea5427e3047e107b0ccbbb2e0f41157.webp" role-color="#2a88cb"><span data-goto="1464200371726581760">[deleted]</span></discord-reply>Ммм
+</discord-message>
+<discord-message id="m-1464200551838515350" timestamp="2026-01-23T10:10:15.089Z" profile="1195675629010558986">
+Может у вас фото WEBP?
+</discord-message>
+<discord-message id="m-1464200657220272129" timestamp="2026-01-23T10:10:40.214Z" profile="1394987798829858896">
+формат jpng ?
+</discord-message>
+<discord-message id="m-1464200690204414117" timestamp="2026-01-23T10:10:48.078Z" profile="1195675629010558986">
+Формат у вас какой
+</discord-message>
+<discord-message id="m-1464200692330795093" timestamp="2026-01-23T10:10:48.585Z" profile="1394987798829858896">
+должен быть?
+</discord-message>
+<discord-message id="m-1464200707476558048" timestamp="2026-01-23T10:10:52.196Z" profile="1394987798829858896">
+хз
+</discord-message>
+<discord-message id="m-1464200752863117322" timestamp="2026-01-23T10:11:03.017Z" profile="1394987798829858896">
+честно не в душе не чаю
+</discord-message>
+<discord-message id="m-1464200770822869075" timestamp="2026-01-23T10:11:07.299Z" profile="1394987798829858896">
+мне ии делал
+</discord-message>
+<discord-message id="m-1464200823134224468" timestamp="2026-01-23T10:11:19.771Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="hs3nshs73" avatar="https://cdn.discordapp.com/avatars/1394987798829858896/2ea5427e3047e107b0ccbbb2e0f41157.webp" role-color="#2a88cb"><span data-goto="1464199704538779710">[deleted]</span></discord-reply>Если у вас баннер как тут то вообще должно загрузится
+</discord-message>
+<discord-message id="m-1464200866235023456" timestamp="2026-01-23T10:11:30.047Z" profile="1195675629010558986">
+Попробуйте с впном отправить заявку
+</discord-message>
+<discord-message id="m-1464200915362779211" timestamp="2026-01-23T10:11:41.760Z" profile="1394987798829858896">
+щп
+</discord-message>
+<discord-message id="m-1464201190454853781" timestamp="2026-01-23T10:12:47.347Z" profile="1394987798829858896">
+<discord-reply slot="reply" author="[DT-001] The_Borisik" avatar="https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp" role-color="#a8002c"><span data-goto="1464200823134224468">Если у вас баннер как тут то вообще должно загрузится</span></discord-reply>ни в какую не идет
+</discord-message>
+<discord-message id="m-1464201242543915071" timestamp="2026-01-23T10:12:59.766Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="hs3nshs73" avatar="https://cdn.discordapp.com/avatars/1394987798829858896/2ea5427e3047e107b0ccbbb2e0f41157.webp" role-color="#2a88cb"><span data-goto="1464201190454853781">ни в какую не идет</span></discord-reply>Попробуйте подать в другое время заявку тогда
+</discord-message>
+<discord-message id="m-1464201270586900591" timestamp="2026-01-23T10:13:06.452Z" profile="1394987798829858896">
+а погодите
+</discord-message>
+<discord-message id="m-1464201338874237080" timestamp="2026-01-23T10:13:22.733Z" profile="1394987798829858896">
+а может получится кому нибудь в личку полностью отправить анкету
+</discord-message>
+<discord-message id="m-1464201366724546698" timestamp="2026-01-23T10:13:29.373Z" profile="1394987798829858896">
+ну не получается прсото
+</discord-message>
+<discord-message id="m-1464201388983713823" timestamp="2026-01-23T10:13:34.680Z" profile="1394987798829858896">
+вы тоже поймите
+</discord-message>
+<discord-message id="m-1464201405454618675" timestamp="2026-01-23T10:13:38.607Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="hs3nshs73" avatar="https://cdn.discordapp.com/avatars/1394987798829858896/2ea5427e3047e107b0ccbbb2e0f41157.webp" role-color="#2a88cb"><span data-goto="1464201338874237080">а может получится кому нибудь в личку полностью отправить анкету</span></discord-reply>Не получится думаю
+</discord-message>
+<discord-message id="m-1464201451420123213" timestamp="2026-01-23T10:13:49.566Z" profile="1195675629010558986">
+Попробуйте в другое время подать повторно заявку
+</discord-message>
+<discord-message id="m-1464201471942987797" timestamp="2026-01-23T10:13:54.459Z" profile="1394987798829858896">
+хорошо
+</discord-message>
+<discord-message id="m-1464201485230276761" timestamp="2026-01-23T10:13:57.627Z" profile="1195675629010558986">
+Мы ну сегодня не будем проверять сразу
+</discord-message>
+<discord-message id="m-1464213145601048725" timestamp="2026-01-23T11:00:17.676Z" profile="1394987798829858896">
+Борис
+</discord-message>
+<discord-message id="m-1464213160541028353" timestamp="2026-01-23T11:00:21.238Z" profile="1394987798829858896">
+ваще не робит
+</discord-message>
+<discord-message id="m-1464213166048284764" timestamp="2026-01-23T11:00:22.551Z" profile="1394987798829858896">
+<discord-mention type="user">Нeroson</discord-mention>
+</discord-message>
+<discord-message id="m-1464213320696594575" timestamp="2026-01-23T11:00:59.422Z" profile="1394987798829858896">
+<discord-reply slot="reply" author="hs3nshs73" avatar="https://cdn.discordapp.com/avatars/1394987798829858896/2ea5427e3047e107b0ccbbb2e0f41157.webp" role-color="#2a88cb"><span data-goto="1464201338874237080">а может получится кому нибудь в личку полностью отправить анкету</span></discord-reply>мб все таки получится?
+</discord-message>
+<discord-message id="m-1464226501221159157" timestamp="2026-01-23T11:53:21.904Z" profile="1394987798829858896">
+аууу
+</discord-message>
+<discord-message id="m-1465348036023550076" timestamp="2026-01-26T14:09:56.638Z" profile="1195675629010558986">
+<discord-mention type="user">Moog</discord-mention> тикет закрываю?
+</discord-message>
+<discord-message id="m-1465348077563941049" timestamp="2026-01-26T14:10:06.542Z" profile="1394987798829858896">
+дак
+</discord-message>
+<discord-message id="m-1465348088326783092" timestamp="2026-01-26T14:10:09.108Z" profile="1394987798829858896">
+давно
+</discord-message>
+<discord-message id="m-1465348190273405161" timestamp="2026-01-26T14:10:33.414Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
