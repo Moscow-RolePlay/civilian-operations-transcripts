@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0085</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#7d8be4","roleIcon":"https://cdn.discordapp.com/role-icons/1350149964533076050/1f17c74edccece36d2f0c52197943c97.webp","roleName":"Боты","bot":true,"verified":false},"932665260912017469":{"author":"robaki12","avatar":"https://cdn.discordapp.com/avatars/932665260912017469/f80b40d67134d877af74a14f96acff84.webp","roleColor":"#ff0000","roleIcon":"","roleName":"Лидер ОПГ \"Yakuza\"","bot":false,"verified":false},"1195675629010558986":{"author":"[DT-001] The_Borisik","avatar":"https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp","roleColor":"#087c00","roleIcon":"","roleName":"Директор ЦОДД","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      logger.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2026-02-09T17:12:13.727Z">Тикет Закрыт.<br/>Причина: Не указана<br/>Дата: 09.02.2026, 20:12:13<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0085_09_02_2026_20:12:13.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0085_09_02_2026_20:12:13.html</a></discord-message><discord-message id="m-1470462543746044026" timestamp="2026-02-09T16:53:10.302Z" profile="1413807061883420744">
+<discord-mention type="user">robaki</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=698ad3a4&is=69898224&hm=173a6aa0629d3f0b1512cfce13ea62bac740c6465b0330c5bc3ba8494f78ce0f&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">robaki12</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">robaki12</discord-embed-field><discord-embed-field field-title="В чём проблема:">Я не могу добавлять людей в якудзу</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="robaki12" icon="https://cdn.discordapp.com/avatars/932665260912017469/f80b40d67134d877af74a14f96acff84.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1470462569813774500" timestamp="2026-02-09T16:53:16.517Z" profile="932665260912017469">
+Ну в банду
+</discord-message>
+<discord-message id="m-1470465438130638922" timestamp="2026-02-09T17:04:40.377Z" profile="1195675629010558986">
+кого добавить
+</discord-message>
+<discord-message id="m-1470465463397126399" timestamp="2026-02-09T17:04:46.401Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="robaki12" avatar="https://cdn.discordapp.com/avatars/932665260912017469/f80b40d67134d877af74a14f96acff84.webp" role-color="#ff0000"><span data-goto="1470462569813774500">Ну в банду</span></discord-reply>это надо через менеджера делать
+</discord-message>
+<discord-message id="m-1470466039308484754" timestamp="2026-02-09T17:07:03.709Z" profile="932665260912017469">
+Добавь bobukuc220, loganbritva.
+</discord-message>
+<discord-message id="m-1470466091586293781" timestamp="2026-02-09T17:07:16.173Z" profile="932665260912017469">
+Благодарю
+</discord-message>
+<discord-message id="m-1470466423443947663" timestamp="2026-02-09T17:08:35.294Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="Deleted User" avatar="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" role-color="#ffffff"><span>[deleted]</span></discord-reply>
+</discord-message>
+<discord-message id="m-1470466470382272715" timestamp="2026-02-09T17:08:46.485Z" profile="1195675629010558986">
+<discord-mention type="user">robaki</discord-mention> одному дал
+</discord-message>
+<discord-message id="m-1470467181547622563" timestamp="2026-02-09T17:11:36.040Z" profile="932665260912017469">
+Хорошо
+</discord-message>
+<discord-message id="m-1470467198181970103" timestamp="2026-02-09T17:11:40.006Z" profile="932665260912017469">
+Все спасибо
+</discord-message>
+<discord-message id="m-1470467333326897202" timestamp="2026-02-09T17:12:12.227Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
