@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0001</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1026945395353473075":{"author":"viz_topp33","avatar":"https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp","roleColor":"#ffffff","roleIcon":"","roleName":"магазин телефонов","bot":false,"verified":false},"1195675629010558986":{"author":"[DT-001] The_Borisik","avatar":"https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp","roleColor":"#087c00","roleIcon":"","roleName":"Директор ЦОДД","bot":false,"verified":false},"1027118272879009886":{"author":"12446alex","avatar":"https://cdn.discordapp.com/avatars/1027118272879009886/eccdf54b74018fb10ea9613fa43f8f92.webp","roleColor":"#9e9e9e","roleIcon":"","roleName":"Тест Роль","bot":false,"verified":false},"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#7d8be4","roleIcon":"https://cdn.discordapp.com/role-icons/1350149964533076050/1f17c74edccece36d2f0c52197943c97.webp","roleName":"Боты","bot":true,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      logger.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2026-02-16T21:54:02.487Z">Тикет Закрыт.<br/>Причина: Не указана<br/>Дата: 17.02.2026, 00:54:02<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0001_17_02_2026_00:54:02.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0001_17_02_2026_00:54:02.html</a></discord-message><discord-message id="m-1471966595797614696" timestamp="2026-02-13T20:29:44.255Z" profile="1026945395353473075">
+Дадите ссылку на Гугл форму?
+</discord-message>
+<discord-message id="m-1471966714676645970" timestamp="2026-02-13T20:30:12.598Z" profile="1195675629010558986">
+в #📑┃информация
+</discord-message>
+<discord-message id="m-1472284188748288141" timestamp="2026-02-14T17:31:44.315Z" profile="1026945395353473075">
+А мы можем владеть 2мя бизнесами одновременно?
+</discord-message>
+<discord-message id="m-1472284251637678081" timestamp="2026-02-14T17:31:59.309Z" profile="1195675629010558986">
+Да
+</discord-message>
+<discord-message id="m-1472284320508018802" timestamp="2026-02-14T17:32:15.729Z" profile="1026945395353473075">
+Спасибо
+</discord-message>
+<discord-message id="m-1472297181691117692" timestamp="2026-02-14T18:23:22.074Z" profile="1026945395353473075">
+Вообщем, заявку отправил. Жду одобрения
+</discord-message>
+<discord-message id="m-1472300367650885805" timestamp="2026-02-14T18:36:01.666Z" profile="1026945395353473075">
+<discord-reply slot="reply" author="[DT-001] The_Borisik" avatar="https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp" role-color="#087c00"><span data-goto="1472284251637678081">Да</span></discord-reply>Проверьте пожалуйста
+</discord-message>
+<discord-message id="m-1472301896781004900" timestamp="2026-02-14T18:42:06.239Z" profile="1195675629010558986">
+Проверяют до 2 недель
+</discord-message>
+<discord-message id="m-1472301920642404526" timestamp="2026-02-14T18:42:11.928Z" profile="1026945395353473075">
+Да емае
+</discord-message>
+<discord-message id="m-1472301937516085399" timestamp="2026-02-14T18:42:15.951Z" profile="1195675629010558986">
+Но с прошлыми заявками +- 3 дня думаю
+</discord-message>
+<discord-message id="m-1472302072090329151" timestamp="2026-02-14T18:42:48.036Z" profile="1026945395353473075">
+Корпорации это ведь ООО?
+</discord-message>
+<discord-message id="m-1472302159184924752" timestamp="2026-02-14T18:43:08.801Z" profile="1026945395353473075">
+Или это попадает под АС
+</discord-message>
+<discord-message id="m-1472302577763880980" timestamp="2026-02-14T18:44:48.598Z" profile="1195675629010558986">
+Не разбираюсь особо
+</discord-message>
+<discord-message id="m-1472303105042284651" timestamp="2026-02-14T18:46:54.311Z" profile="1026945395353473075">
+Для расширения тоже надо лицензию покупать?
+</discord-message>
+<discord-message id="m-1472303166396567553" timestamp="2026-02-14T18:47:08.939Z" profile="1195675629010558986">
+Она у вас будет уже
+</discord-message>
+<discord-message id="m-1472303223262937189" timestamp="2026-02-14T18:47:22.497Z" profile="1026945395353473075">
+Ну то есть 1 хватит
+</discord-message>
+<discord-message id="m-1472303237611917344" timestamp="2026-02-14T18:47:25.918Z" profile="1195675629010558986">
+Да
+</discord-message>
+<discord-message id="m-1472303323993473024" timestamp="2026-02-14T18:47:46.513Z" profile="1026945395353473075">
+Корпорацию может владеть бизнесами поменьше?
+</discord-message>
+<discord-message id="m-1472303441853546701" timestamp="2026-02-14T18:48:14.613Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472303323993473024">Корпорацию может владеть бизнесами поменьше?</span></discord-reply>Ну я думаю максимум одна
+</discord-message>
+<discord-message id="m-1472303453245145190" timestamp="2026-02-14T18:48:17.329Z" profile="1195675629010558986">
+Потом расширение
+</discord-message>
+<discord-message id="m-1472303463600881704" timestamp="2026-02-14T18:48:19.798Z" profile="1195675629010558986">
+Только
+</discord-message>
+<discord-message id="m-1472303497411035348" timestamp="2026-02-14T18:48:27.859Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="[DT-001] The_Borisik" avatar="https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp" role-color="#087c00"><span data-goto="1472303453245145190">Потом расширение</span></discord-reply>Если там все гуд может и выше
+</discord-message>
+<discord-message id="m-1472303531175313448" timestamp="2026-02-14T18:48:35.909Z" profile="1026945395353473075">
+Типо корпорация открывает отдел перевозок (такси), отдел питания, отдел адвокатуры, отдел охраны
+</discord-message>
+<discord-message id="m-1472303620585427187" timestamp="2026-02-14T18:48:57.226Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472303531175313448">Типо корпорация открывает отдел перевозок (такси), отдел питания, отдел адвокатуры, отдел охраны</span></discord-reply>Такси уже есть
+</discord-message>
+<discord-message id="m-1472303660070473781" timestamp="2026-02-14T18:49:06.640Z" profile="1026945395353473075">
+2 компании такси
+</discord-message>
+<discord-message id="m-1472303666680692983" timestamp="2026-02-14T18:49:08.216Z" profile="1195675629010558986">
+<ul><br/><li>Заявку дополнительную заполнять в реестр дептранса</li><br/></ul>
+</discord-message>
+<discord-message id="m-1472303676688437271" timestamp="2026-02-14T18:49:10.602Z" profile="1026945395353473075">
+В чем проблема
+</discord-message>
+<discord-message id="m-1472303789196443740" timestamp="2026-02-14T18:49:37.426Z" profile="1026945395353473075">
+Я имею ввиду что типо частные водилы
+</discord-message>
+<discord-message id="m-1472303812931747932" timestamp="2026-02-14T18:49:43.085Z" profile="1026945395353473075">
+И такси елит класа
+</discord-message>
+<discord-message id="m-1472304330412654715" timestamp="2026-02-14T18:51:46.462Z" profile="1026945395353473075">
+Хочу спросить за вещь, может ли типа так скажем совладелец компании корпорации моей купить лицензию на бизнес и типа создать вот эти вот отделы да?
+</discord-message>
+<discord-message id="m-1472304487145148438" timestamp="2026-02-14T18:52:23.830Z" profile="1026945395353473075">
+Ну то есть допустим я владею там двумя отделами и он владеет двумя отделами так можно вообще?
+</discord-message>
+<discord-message id="m-1472305428393103545" timestamp="2026-02-14T18:56:08.241Z" profile="1195675629010558986">
+НУ это уже бизнес сами решайте
+</discord-message>
+<discord-message id="m-1472313167253213426" timestamp="2026-02-14T19:26:53.329Z" profile="1026945395353473075">
+<discord-reply slot="reply" author="[DT-001] The_Borisik" avatar="https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp" role-color="#087c00"><span data-goto="1472305428393103545">НУ это уже бизнес сами решайте</span></discord-reply>Вопрос ещё один есть, мы хотим сделать ЧОП, и хотел поинтересоваться можем ли мы получит разрешение на использование Огнестрельного оружия а также на использование Брони (скрытой)
+</discord-message>
+<discord-message id="m-1472315380180586638" timestamp="2026-02-14T19:35:40.932Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472302072090329151">Корпорации это ведь ООО?</span></discord-reply>Смотря что ты под корпорациями подразумеваешь
+</discord-message>
+<discord-message id="m-1472315482454495445" timestamp="2026-02-14T19:36:05.316Z" profile="1026945395353473075">
+<discord-reply slot="reply" author="12446alex" avatar="https://cdn.discordapp.com/avatars/1027118272879009886/eccdf54b74018fb10ea9613fa43f8f92.webp" role-color="#9e9e9e"><span data-goto="1472315380180586638">Смотря что ты под корпорациями подразумеваешь</span></discord-reply>Компания владеющая другими мелкими бизнесами
+</discord-message>
+<discord-message id="m-1472315932272496805" timestamp="2026-02-14T19:37:52.561Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472315482454495445">Компания владеющая другими мелкими бизнесами</span></discord-reply>Ну тогда как ооо так и ао используют. Зависит от конкретного примера, чтобы я мог сказать точнее
+</discord-message>
+<discord-message id="m-1472316287823642775" timestamp="2026-02-14T19:39:17.331Z" profile="1026945395353473075">
+Смотри, вот я владею корпорацией, в состав которой входят другие мелкие компании типо Адвокатская Компания
+</discord-message>
+<discord-message id="m-1472316451418280220" timestamp="2026-02-14T19:39:56.335Z" profile="1026945395353473075">
+Адвокатская Компания будет управляться корпорацией но при этом компания имеет так скажем свою независимост
+</discord-message>
+<discord-message id="m-1472316661745979402" timestamp="2026-02-14T19:40:46.481Z" profile="1026945395353473075">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472313167253213426">Вопрос ещё один есть, мы хотим сделать ЧОП, и хотел поинтересоваться можем ли мы получит разрешение </span></discord-reply>На это дайте ответ и рекомендации
+</discord-message>
+<discord-message id="m-1472316942558822493" timestamp="2026-02-14T19:41:53.432Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472316287823642775">Смотри, вот я владею корпорацией, в состав которой входят другие мелкие компании типо Адвокатская Ко</span></discord-reply>Ну смотри, у нас адвокатские компании это некоммерческие организации, они не могут входить в какие-то коммерческие организации
+</discord-message>
+<discord-message id="m-1472317260390596841" timestamp="2026-02-14T19:43:09.209Z" profile="1026945395353473075">
+Основная цель корпорации - объединить несколько сфер влияния бизнесов в одну организацию
+</discord-message>
+<discord-message id="m-1472317406817812612" timestamp="2026-02-14T19:43:44.120Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472313167253213426">Вопрос ещё один есть, мы хотим сделать ЧОП, и хотел поинтересоваться можем ли мы получит разрешение </span></discord-reply>Огнестрельное оружие использовать не можете. Только травматическое
+</discord-message>
+<discord-message id="m-1472317614931054694" timestamp="2026-02-14T19:44:33.738Z" profile="1026945395353473075">
+Разрешение нужно какие либо?
+</discord-message>
+<discord-message id="m-1472317792924598482" timestamp="2026-02-14T19:45:16.175Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472317260390596841">Основная цель корпорации - объединить несколько сфер влияния бизнесов в одну организацию</span></discord-reply>Смотри, к примеру адвокатская контора может создать дочернюю ооо, а ооо не может иметь дочернюю адвокатскую контору
+</discord-message>
+<discord-message id="m-1472317970284806297" timestamp="2026-02-14T19:45:58.461Z" profile="1027118272879009886">
+Адвокатские конторы считаются нко - некоммерческие организации, поэтому они не могут входить в какие-либо организации, где есть компании, нацеленные на получение прибыли
+</discord-message>
+<discord-message id="m-1472318187499556865" timestamp="2026-02-14T19:46:50.249Z" profile="1026945395353473075">
+Ну смотри крч, адвокатская будет действовать Независимо от коммерции Но будет входить в состав организации
+</discord-message>
+<discord-message id="m-1472318233632706772" timestamp="2026-02-14T19:47:01.248Z" profile="1026945395353473075">
+А хотя, нотариус это ведь КО?
+</discord-message>
+<discord-message id="m-1472318493939466484" timestamp="2026-02-14T19:48:03.310Z" profile="1026945395353473075">
+<discord-reply slot="reply" author="12446alex" avatar="https://cdn.discordapp.com/avatars/1027118272879009886/eccdf54b74018fb10ea9613fa43f8f92.webp" role-color="#9e9e9e"><span data-goto="1472317792924598482">Смотри, к примеру адвокатская контора может создать дочернюю ооо, а ооо не может иметь дочернюю адво</span></discord-reply>Можем в комнату на Москве пойти и обсудить
+</discord-message>
+<discord-message id="m-1472318722868772987" timestamp="2026-02-14T19:48:57.891Z" profile="1027118272879009886">
+А если брать прям максимально реалистично, то адвокатские конторы это вообще отдельные формы организации. Насчет нотариуса - там интереснее система. Нотариусы вообще зависят от государства
+</discord-message>
+<discord-message id="m-1472318757673111775" timestamp="2026-02-14T19:49:06.189Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472318493939466484">Можем в комнату на Москве пойти и обсудить</span></discord-reply>Я не могу к сожалению
+</discord-message>
+<discord-message id="m-1472318998220640329" timestamp="2026-02-14T19:50:03.540Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="12446alex" avatar="https://cdn.discordapp.com/avatars/1027118272879009886/eccdf54b74018fb10ea9613fa43f8f92.webp" role-color="#9e9e9e"><span data-goto="1472318722868772987">А если брать прям максимально реалистично, то адвокатские конторы это вообще отдельные формы организ</span></discord-reply>НО ни нотариусы ни адвокатские конторы никогда не входили в состав ооо/ао и по закону не могут
+</discord-message>
+<discord-message id="m-1472319088704491794" timestamp="2026-02-14T19:50:25.113Z" profile="1026945395353473075">
+Мне просто интересно может ли моя корпорация предоставлять частные условия защиты прав человека в различных ситуациях
+</discord-message>
+<discord-message id="m-1472319573574422661" timestamp="2026-02-14T19:52:20.715Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472319088704491794">Мне просто интересно может ли моя корпорация предоставлять частные условия защиты прав человека в ра</span></discord-reply>Смотри, пока по закону чтобы защищать права человека в суде к примеру не обязательно быть адвокатом, достаточно просто быть юристом. Есть законопроект, что с 2028 года хотят сделать представительство в судах только адвокатам, но пока закон не принят
+</discord-message>
+<discord-message id="m-1472319637440958580" timestamp="2026-02-14T19:52:35.942Z" profile="1026945395353473075">
+Вообще м так:<br/>Есть Нотариус получается и он не направлен на цель получения прибыли но фактически входит в состав организации (что-то по типу автономии )
+</discord-message>
+<discord-message id="m-1472319742244163676" timestamp="2026-02-14T19:53:00.929Z" profile="1026945395353473075">
+Типо как АРК в состав Украины был до 2014
+</discord-message>
+<discord-message id="m-1472320384845091118" timestamp="2026-02-14T19:55:34.137Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472319637440958580">Вообще м так:
+Есть Нотариус получается и он не направлен на цель получения прибыли но фактически вхо</span></discord-reply>Входить в состав коммерческой организации лучше юридической фирме. Если брать нотариус, то они работают все с государством и государство их регулирует, поэтому в рф нет нотариусов, которые входят в компании. С адвокатами тоже самое, в рф нет компаний, если я правильно помню, которые входят в коммерческую организацию
+</discord-message>
+<discord-message id="m-1472320469926412424" timestamp="2026-02-14T19:55:54.422Z" profile="1027118272879009886">
+А вот юридическая фирма вроде может быть ооо, если законы не поменяли
+</discord-message>
+<discord-message id="m-1472320493813108786" timestamp="2026-02-14T19:56:00.117Z" profile="1027118272879009886">
+Но вроде не меняли
+</discord-message>
+<discord-message id="m-1472320603343163463" timestamp="2026-02-14T19:56:26.231Z" profile="1026945395353473075">
+Тогда мы може быть ЮФ?
+</discord-message>
+<discord-message id="m-1472320673874706464" timestamp="2026-02-14T19:56:43.047Z" profile="1026945395353473075">
+Если да то вопрос по Юр. Услугам закрыт
+</discord-message>
+<discord-message id="m-1472320864044322979" timestamp="2026-02-14T19:57:28.387Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472320603343163463">Тогда мы може быть ЮФ?</span></discord-reply>Юр фирмой да. Там вообще сейчас вроде достаточно слабое у них регулирование
+</discord-message>
+<discord-message id="m-1472320920965087345" timestamp="2026-02-14T19:57:41.958Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472320673874706464">Если да то вопрос по Юр. Услугам закрыт</span></discord-reply>Еще по каким-то темам вопросы?
+</discord-message>
+<discord-message id="m-1472321027928227911" timestamp="2026-02-14T19:58:07.460Z" profile="1026945395353473075">
+По поводу ЧОПа и Расширения
+</discord-message>
+<discord-message id="m-1472321126204964927" timestamp="2026-02-14T19:58:30.891Z" profile="1026945395353473075">
+Мне на каждый бизнес нужно отдельно лицензию покупать и разрешение делать?
+</discord-message>
+<discord-message id="m-1472321200700002498" timestamp="2026-02-14T19:58:48.652Z" profile="1026945395353473075">
+Разширения*
+</discord-message>
+<discord-message id="m-1472321391872311508" timestamp="2026-02-14T19:59:34.231Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472321126204964927">Мне на каждый бизнес нужно отдельно лицензию покупать и разрешение делать?</span></discord-reply>Насчет лицензий это уже к борисику, не ко мне
+</discord-message>
+<discord-message id="m-1472322042446483539" timestamp="2026-02-14T20:02:09.340Z" profile="1026945395353473075">
+Мне интересно просто, вот такая штука:<br/>Есть Корпорация <br/>В состав корпорации входят автономные бизнесы. <br/>Допустим так:<br/>Есть чоп.<br/>У ЧОПа есть свой директор который подчиняться корпорации.<br/>Корпорация по сути владеет Чопом но при этом чоп независим
+</discord-message>
+<discord-message id="m-1472322178950234133" timestamp="2026-02-14T20:02:41.885Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472322042446483539">Мне интересно просто, вот такая штука:
+Есть Корпорация 
+В состав корпорации входят автономные бизнес</span></discord-reply>Ну да
+</discord-message>
+<discord-message id="m-1472322446777520250" timestamp="2026-02-14T20:03:45.740Z" profile="1026945395353473075">
+Мне нужно делать чоп как отдельный бизнес, или просто разшерения купить?
+</discord-message>
+<discord-message id="m-1472322811564658769" timestamp="2026-02-14T20:05:12.712Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472322446777520250">Мне нужно делать чоп как отдельный бизнес, или просто разшерения купить?</span></discord-reply>На этот вопрос тебе борисик ответит. В реальности у любой компании отдельное юр лицо
+</discord-message>
+<discord-message id="m-1472323035171131543" timestamp="2026-02-14T20:06:06.024Z" profile="1027118272879009886">
+Я спец больше в законке России
+</discord-message>
+<discord-message id="m-1472323084454461460" timestamp="2026-02-14T20:06:17.774Z" profile="1026945395353473075">
+Понял
+</discord-message>
+<discord-message id="m-1472323158806892758" timestamp="2026-02-14T20:06:35.501Z" profile="1026945395353473075">
+Ну ты пингани борисика там
+</discord-message>
+<discord-message id="m-1472323344132210708" timestamp="2026-02-14T20:07:19.686Z" profile="1027118272879009886">
+Ну я не бессмертный, сам ответит
+</discord-message>
+<discord-message id="m-1472323453951414282" timestamp="2026-02-14T20:07:45.869Z" profile="1027118272879009886">
+<discord-reply slot="reply" author="[DT-001] The_Borisik" avatar="https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp" role-color="#087c00"><span data-goto="1472305428393103545">НУ это уже бизнес сами решайте</span></discord-reply>Борисик, будешь в сети - почитай
+</discord-message>
+<discord-message id="m-1472323480824451204" timestamp="2026-02-14T20:07:52.276Z" profile="1027118272879009886">
+Всё что мог сделать
+</discord-message>
+<discord-message id="m-1472490207176556565" timestamp="2026-02-15T07:10:22.936Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="12446alex" avatar="https://cdn.discordapp.com/avatars/1027118272879009886/eccdf54b74018fb10ea9613fa43f8f92.webp" role-color="#9e9e9e"><span data-goto="1472323453951414282">Борисик, будешь в сети - почитай</span></discord-reply>Что тут
+</discord-message>
+<discord-message id="m-1472492001969836116" timestamp="2026-02-15T07:17:30.848Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472321126204964927">Мне на каждый бизнес нужно отдельно лицензию покупать и разрешение делать?</span></discord-reply>Нет
+</discord-message>
+<discord-message id="m-1472492051806556214" timestamp="2026-02-15T07:17:42.730Z" profile="1195675629010558986">
+вы системой никак не сможете вроде купить 2 лицензию
+</discord-message>
+<discord-message id="m-1472492248607363072" timestamp="2026-02-15T07:18:29.651Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="viz_topp33" avatar="https://cdn.discordapp.com/avatars/1026945395353473075/4ccdb1f9722502b2735b1021828cf18f.webp" role-color="#ffffff"><span data-goto="1472322042446483539">Мне интересно просто, вот такая штука:
+Есть Корпорация 
+В состав корпорации входят автономные бизнес</span></discord-reply>Ну опять же
+</discord-message>
+<discord-message id="m-1472492258417705043" timestamp="2026-02-15T07:18:31.990Z" profile="1195675629010558986">
+Есть лимит
+</discord-message>
+<discord-message id="m-1472492313673732323" timestamp="2026-02-15T07:18:45.164Z" profile="1195675629010558986">
+И чтобы лимит этот убрать с 1 на 2 надо расширять бизнес
+</discord-message>
+<discord-message id="m-1472492351703355463" timestamp="2026-02-15T07:18:54.231Z" profile="1195675629010558986">
+Для этого нужен актив  в бизнесе
+</discord-message>
+<discord-message id="m-1472492391016693771" timestamp="2026-02-15T07:19:03.604Z" profile="1195675629010558986">
+Если его нет - прилетит отказ
+</discord-message>
+<discord-message id="m-1472509735231029432" timestamp="2026-02-15T08:27:58.787Z" profile="1026945395353473075">
+Понял
+</discord-message>
+<discord-message id="m-1472844340442431578" timestamp="2026-02-16T06:37:34.886Z" profile="1026945395353473075">
+Можно узнать мне как продвигается просмотр заявки нашей
+</discord-message>
+<discord-message id="m-1472844350781264089" timestamp="2026-02-16T06:37:37.351Z" profile="1026945395353473075">
+?
+</discord-message>
+<discord-message id="m-1472845189843517521" timestamp="2026-02-16T06:40:57.399Z" profile="1195675629010558986">
+Ну вы поймите прошу то что я не только сервером ГО занимаюсь
+</discord-message>
+<discord-message id="m-1472916018799050805" timestamp="2026-02-16T11:22:24.338Z" profile="1026945395353473075">
+Я могу ещё раз перепродать заявку изменим все включая тему бизнеса?
+</discord-message>
+<discord-message id="m-1472916106803937340" timestamp="2026-02-16T11:22:45.320Z" profile="1195675629010558986">
+Да
+</discord-message>
+<discord-message id="m-1472916129386336482" timestamp="2026-02-16T11:22:50.704Z" profile="1195675629010558986">
+Только у вас слишком много тем
+</discord-message>
+<discord-message id="m-1472916159321083924" timestamp="2026-02-16T11:22:57.841Z" profile="1195675629010558986">
+Было
+</discord-message>
+<discord-message id="m-1472923665598255125" timestamp="2026-02-16T11:52:47.477Z" profile="1026945395353473075">
+Я переписываю заявку, названия компании Я указываю другое окей? Или мне под тем же названием делать.
+</discord-message>
+<discord-message id="m-1472924346443104328" timestamp="2026-02-16T11:55:29.803Z" profile="1195675629010558986">
+Как хотите
+</discord-message>
+<discord-message id="m-1472927164176273429" timestamp="2026-02-16T12:06:41.603Z" profile="1026945395353473075">
+Я переделал и отправил
+</discord-message>
+<discord-message id="m-1472927188100714679" timestamp="2026-02-16T12:06:47.307Z" profile="1026945395353473075">
+Проверьте по возможности
+</discord-message>
+<discord-message id="m-1472974641889935514" timestamp="2026-02-16T15:15:21.172Z" profile="1195675629010558986">
+Тикет закрываю?
+</discord-message>
+<discord-message id="m-1472974648936497203" timestamp="2026-02-16T15:15:22.852Z" profile="1195675629010558986">
+<discord-mention type="user">MrViz</discord-mention>
+</discord-message>
+<discord-message id="m-1472976256390922372" timestamp="2026-02-16T15:21:46.099Z" profile="1026945395353473075">
+Da
+</discord-message>
+<discord-message id="m-1473074971906674983" timestamp="2026-02-16T21:54:01.712Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
