@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0006</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#7d8be4","roleIcon":"https://cdn.discordapp.com/role-icons/1350149964533076050/1f17c74edccece36d2f0c52197943c97.webp","roleName":"Боты","bot":true,"verified":false},"1448059157897809940":{"author":"Bacon_baconkin","avatar":"https://cdn.discordapp.com/avatars/1448059157897809940/522531c03c1518192fa82f5d7420e4e0.webp","roleColor":"#ffffff","roleIcon":"","roleName":"RUS OIL I GAS N GO","bot":false,"verified":false},"994164698654187580":{"author":"the_yeolka","avatar":"https://cdn.discordapp.com/avatars/994164698654187580/68a76c54350a05fd63f5334827a7ee1c.webp","roleColor":"#ffffff","roleIcon":"","roleName":"User","bot":false,"verified":false},"970713754411089940":{"author":"[DT-015] Sashapozzzz","avatar":"https://cdn.discordapp.com/avatars/970713754411089940/705004f19dbd72eaeb7c5043bd58614d.webp","roleColor":"#16dd97","roleIcon":"","roleName":"Заместитель Министра Департамента Транспорта","bot":false,"verified":false},"1195675629010558986":{"author":"[DT-001] The_Borisik","avatar":"https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp","roleColor":"#087c00","roleIcon":"","roleName":"Директор ЦОДД","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      logger.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2026-02-28T11:18:55.570Z">Тикет Закрыт.<br/>Причина: .<br/>Дата: 28.02.2026, 14:18:55<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0006_28_02_2026_14:18:55.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0006_28_02_2026_14:18:55.html</a></discord-message><discord-message id="m-1474049279743098890" timestamp="2026-02-19T14:25:34.802Z" profile="1413807061883420744">
+<discord-mention type="user">nn</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=69a3e024&is=69a28ea4&hm=93452585ca862382ad9fc81e8d19643e1baa78b86a95154fd5d36c38781d5bbe&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">Loganbritva.</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">Bacon_baconkin</discord-embed-field><discord-embed-field field-title="В чём проблема:">Убрать опг воры</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="loganbritva." icon="https://cdn.discordapp.com/avatars/1448059157897809940/522531c03c1518192fa82f5d7420e4e0.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1474049376790909089" timestamp="2026-02-19T14:25:57.940Z" profile="994164698654187580">
+<discord-reply slot="reply" author="Гражданские Операции MRP" avatar="https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp" role-color="#7d8be4"><span data-goto="1474049279743098890">@1448059157897809940</span></discord-reply>что именно вы хотите убрать?
+</discord-message>
+<discord-message id="m-1474049465076945139" timestamp="2026-02-19T14:26:18.989Z" profile="994164698654187580">
+<discord-mention type="user">nn</discord-mention>
+</discord-message>
+<discord-message id="m-1474049556869152914" timestamp="2026-02-19T14:26:40.874Z" profile="1448059157897809940">
+Убрать опг полностью
+</discord-message>
+<discord-message id="m-1474049562007048483" timestamp="2026-02-19T14:26:42.099Z" profile="1448059157897809940">
+Ну
+</discord-message>
+<discord-message id="m-1474049571729444915" timestamp="2026-02-19T14:26:44.417Z" profile="1448059157897809940">
+Как сказатл
+</discord-message>
+<discord-message id="m-1474049583523958855" timestamp="2026-02-19T14:26:47.229Z" profile="1448059157897809940">
+Откатить
+</discord-message>
+<discord-message id="m-1474049588309786854" timestamp="2026-02-19T14:26:48.370Z" profile="1448059157897809940">
+Опг
+</discord-message>
+<discord-message id="m-1474050759224983840" timestamp="2026-02-19T14:31:27.538Z" profile="970713754411089940">
+уверен?
+</discord-message>
+<discord-message id="m-1474050782130212896" timestamp="2026-02-19T14:31:32.999Z" profile="970713754411089940">
+потом через месяц только
+</discord-message>
+<discord-message id="m-1474050797296685137" timestamp="2026-02-19T14:31:36.615Z" profile="970713754411089940">
+создать можно будет
+</discord-message>
+<discord-message id="m-1474050843832750100" timestamp="2026-02-19T14:31:47.710Z" profile="1448059157897809940">
+Плевать
+</discord-message>
+<discord-message id="m-1474050846554722406" timestamp="2026-02-19T14:31:48.359Z" profile="1448059157897809940">
+Уверен
+</discord-message>
+<discord-message id="m-1474086386188685473" timestamp="2026-02-19T16:53:01.668Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="Bacon_baconkin" avatar="https://cdn.discordapp.com/avatars/1448059157897809940/522531c03c1518192fa82f5d7420e4e0.webp" role-color="#ffffff"><span data-goto="1474049556869152914">Убрать опг полностью</span></discord-reply>Вас убрали
+</discord-message>
+<discord-message id="m-1474086469223190579" timestamp="2026-02-19T16:53:21.465Z" profile="1195675629010558986">
+Тикет закрываю?
+</discord-message>
+<discord-message id="m-1474095567692107833" timestamp="2026-02-19T17:29:30.709Z" profile="1448059157897809940">
+А роли удалили?
+</discord-message>
+<discord-message id="m-1474095626013642930" timestamp="2026-02-19T17:29:44.614Z" profile="1448059157897809940">
+Мб эмблему там или еще чет что готовилось для нашего полного открыття
+</discord-message>
+<discord-message id="m-1474095641482363058" timestamp="2026-02-19T17:29:48.302Z" profile="1448059157897809940">
+Если дп то не удаляйте
+</discord-message>
+<discord-message id="m-1474095657479573751" timestamp="2026-02-19T17:29:52.116Z" profile="1448059157897809940">
+А так тикеттзакрывайте
+</discord-message>
+<discord-message id="m-1474095988254838876" timestamp="2026-02-19T17:31:10.979Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="Bacon_baconkin" avatar="https://cdn.discordapp.com/avatars/1448059157897809940/522531c03c1518192fa82f5d7420e4e0.webp" role-color="#ffffff"><span data-goto="1474095641482363058">Если дп то не удаляйте</span></discord-reply>Мы сменили лидера т.к в опг были люди
+</discord-message>
+<discord-message id="m-1474095999331995871" timestamp="2026-02-19T17:31:13.620Z" profile="1195675629010558986">
+Мы его не удалили
+</discord-message>
+<discord-message id="m-1474096230824022264" timestamp="2026-02-19T17:32:08.812Z" profile="1448059157897809940">
+Ок
+</discord-message>
+<discord-message id="m-1474096237153226916" timestamp="2026-02-19T17:32:10.321Z" profile="1448059157897809940">
+А кто?
+</discord-message>
+<discord-message id="m-1474096246602858700" timestamp="2026-02-19T17:32:12.574Z" profile="1448059157897809940">
+Он согласился?
+</discord-message>
+<discord-message id="m-1474096459489218610" timestamp="2026-02-19T17:33:03.330Z" profile="1448059157897809940">
+Кстати
+</discord-message>
+<discord-message id="m-1474096507857797260" timestamp="2026-02-19T17:33:14.862Z" profile="1448059157897809940">
+Если я скажу что вернусь в опг на лидака то мне его дадут?
+</discord-message>
+<discord-message id="m-1474096517533929482" timestamp="2026-02-19T17:33:17.169Z" profile="1448059157897809940">
+Или нет
+</discord-message>
+<discord-message id="m-1474096565932134530" timestamp="2026-02-19T17:33:28.708Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="Bacon_baconkin" avatar="https://cdn.discordapp.com/avatars/1448059157897809940/522531c03c1518192fa82f5d7420e4e0.webp" role-color="#ffffff"><span data-goto="1474096507857797260">Если я скажу что вернусь в опг на лидака то мне его дадут?</span></discord-reply>возможно
+</discord-message>
+<discord-message id="m-1474096590980517978" timestamp="2026-02-19T17:33:34.680Z" profile="1195675629010558986">
+Ну там по решению лидера
+</discord-message>
+<discord-message id="m-1474096921739264291" timestamp="2026-02-19T17:34:53.539Z" profile="1448059157897809940">
+Окк
+</discord-message>
+<discord-message id="m-1474113378535608351" timestamp="2026-02-19T18:40:17.145Z" profile="1448059157897809940">
+Борис
+</discord-message>
+<discord-message id="m-1474113396646346753" timestamp="2026-02-19T18:40:21.463Z" profile="1448059157897809940">
+Включи лс
+</discord-message>
+<discord-message id="m-1474113401897877580" timestamp="2026-02-19T18:40:22.715Z" profile="1448059157897809940">
+И
+</discord-message>
+<discord-message id="m-1474113449737982115" timestamp="2026-02-19T18:40:34.121Z" profile="1448059157897809940">
+Закинь меня покачто к ukpanik
+</discord-message>
+<discord-message id="m-1474113494679814226" timestamp="2026-02-19T18:40:44.836Z" profile="1448059157897809940">
+Там лид не против
+</discord-message>
+<discord-message id="m-1474123629498208276" timestamp="2026-02-19T19:21:01.165Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="Bacon_baconkin" avatar="https://cdn.discordapp.com/avatars/1448059157897809940/522531c03c1518192fa82f5d7420e4e0.webp" role-color="#ffffff"><span data-goto="1474113396646346753">Включи лс</span></discord-reply>Нет
+</discord-message>
+<discord-message id="m-1477263794882351266" timestamp="2026-02-28T11:18:54.934Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
