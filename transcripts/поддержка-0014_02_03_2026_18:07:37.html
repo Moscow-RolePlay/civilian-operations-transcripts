@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0014</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=68f3dfe4&is=68f28e64&hm=a26282655d6ed341d82d6fdaa158d6cd8407077ba59ab13b63d9bd2610047d02&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции MRP","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.webp","roleColor":"#7d8be4","roleIcon":"https://cdn.discordapp.com/role-icons/1350149964533076050/1f17c74edccece36d2f0c52197943c97.webp","roleName":"Боты","bot":true,"verified":false},"1431264187228885033":{"author":"apchi_2002","avatar":"https://cdn.discordapp.com/avatars/1431264187228885033/5fa9adcd0e7601c882c505e76611ee7d.webp","roleColor":"#be0000","roleIcon":"https://cdn.discordapp.com/role-icons/1429186796285329709/28a274be0e6da351a74f85d4744f2f28.webp","roleName":"Статус \"Кремль\"","bot":false,"verified":false},"970713754411089940":{"author":"[DT-015] Sashapozzzz","avatar":"https://cdn.discordapp.com/avatars/970713754411089940/705004f19dbd72eaeb7c5043bd58614d.webp","roleColor":"#16dd97","roleIcon":"","roleName":"Заместитель Министра Департамента Транспорта","bot":false,"verified":false},"1195675629010558986":{"author":"[DT-001] The_Borisik","avatar":"https://cdn.discordapp.com/avatars/1195675629010558986/6bbd4a65316e5d208cfa89062b454a64.webp","roleColor":"#087c00","roleIcon":"","roleName":"Директор ЦОДД","bot":false,"verified":false}}};</script>
+<style>
+body { background: #36393f; color: #dcddde; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; }
+#lightboxOverlay { display:none; position:fixed; left:0; top:0; right:0; bottom:0; width:100vw; height:100vh; z-index:99999; background: rgba(30,30,30,0.85); align-items:center; justify-content:center; transition: background 0.2s; }
+#lightboxOverlay img, #lightboxImg { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:6px; box-shadow: 0 4px 20px rgba(0,0,0,0.6); background:#222; display:block; margin:auto; }
+discord-reactions { display:flex; flex-wrap:wrap; gap:2px; margin-top:8px; }
+discord-reaction { display:inline-flex; align-items:center; border-radius:6px; margin-right:2px; padding:2px 4px; font-size:14px; color:#dcddde; }
+discord-custom-emoji { vertical-align:middle; margin-right:4px; }
+</style>
+<script>
+document.addEventListener("click", t => {
+  let e = t.target;
+  if (!e) return;
+  let o = e.getAttribute && e.getAttribute("data-goto");
+  if (o) {
+    let r = document.getElementById(`m-${o}`);
+    if (r) {
+      r.scrollIntoView({behavior: "smooth", block: "center"});
+      r.style.backgroundColor = "rgba(148,156,247,0.1)";
+      r.style.transition = "background-color 0.5s ease";
+      setTimeout(() => { r.style.backgroundColor = "transparent"; }, 1000);
+    } else {
+      logger.warn("Message " + o + " not found.");
+    }
+  }
+  if (e.matches && e.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+    let src = e.getAttribute("src") || (e.querySelector && e.querySelector('img') ? e.querySelector('img').src : '');
+    if (src) {
+      let overlay = document.getElementById('lightboxOverlay');
+      let img = document.getElementById('lightboxImg');
+      overlay.style.display = 'flex';
+      img.src = src;
+    }
+  }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  let overlay = document.getElementById('lightboxOverlay');
+  overlay && overlay.addEventListener('click', () => { overlay.style.display = 'none'; });
+});
+</script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Гражданские Операции" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp" timestamp="2026-03-02T15:07:37.726Z">Тикет Закрыт.<br/>Причина: Не указана<br/>Дата: 02.03.2026, 18:07:37<br/><a href="https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0014_02_03_2026_18:07:37.html" style="color: #00aff4;">https://Moscow-RolePlay.github.io/civilian-operations-transcripts/transcripts/поддержка-0014_02_03_2026_18:07:37.html</a></discord-message><discord-message id="m-1477774545942216845" timestamp="2026-03-01T21:08:27.476Z" profile="1413807061883420744">
+<discord-mention type="user">Генерал - Гавс</discord-mention><discord-embed title=" Новый тикет — поддержка" slot="embeds" color="#229400" thumbnail="https://cdn.discordapp.com/attachments/1413896322175729805/1428815783202394274/Thumbnail---MRP.png?ex=69a68324&is=69a531a4&hm=d323ca8a3961f2d47e9e07ebf8588708b20e4948ca77421c46fc7091bc145b7d&"><discord-embed-fields slot="fields"><discord-embed-field field-title="Ваш никнейм в Discord:">apchi_2002</discord-embed-field><discord-embed-field field-title="Ваш никнейм в Roblox:">apchi_2002</discord-embed-field><discord-embed-field field-title="В чём проблема:">Перевести деньги со 2 аккаунта</discord-embed-field></discord-embed-fields><discord-embed-author slot="author" name="mafunist2" icon="https://cdn.discordapp.com/avatars/1431264187228885033/5fa9adcd0e7601c882c505e76611ee7d.webp"></discord-embed-author><discord-embed-footer slot="footer">⏳ Ожидайте ответа.</discord-embed-footer></discord-embed><discord-attachments slot="components"><discord-action-row><discord-button type="secondary">🔒Закрыть Тикет</discord-button></discord-action-row></discord-attachments>
+</discord-message>
+<discord-message id="m-1477774649537593487" timestamp="2026-03-01T21:08:52.175Z" profile="1431264187228885033">
+Аккаунт apchi_2002 С аватаркой Стул алексея навального
+</discord-message>
+<discord-message id="m-1477774812087849141" timestamp="2026-03-01T21:09:30.930Z" profile="1431264187228885033">
+Там 350 к
+</discord-message>
+<discord-message id="m-1477774851199733863" timestamp="2026-03-01T21:09:40.255Z" profile="1431264187228885033">
+Нужно перевести на мой счет
+</discord-message>
+<discord-message id="m-1477887131736215734" timestamp="2026-03-02T04:35:50.021Z" profile="1413807061883420744">
+<discord-embed title="Баланс mafunist" slot="embeds" color="#229400"><discord-embed-description slot="description"><strong>Наличные:</strong> <img src="<a href="https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"</a> alt="MRPCO_Money" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> 0<br/><strong>В банке:</strong> <img src="<a href="https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"</a> alt="MRPCO_Money" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> 350,000<br/><strong>Всего:</strong> <img src="<a href="https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"</a> alt="MRPCO_Money" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> 350,000</discord-embed-description><discord-embed-footer slot="footer">Ранг в рейтинге: #31</discord-embed-footer></discord-embed>
+</discord-message>
+<discord-message id="m-1477887355196276858" timestamp="2026-03-02T04:36:43.298Z" profile="1413807061883420744">
+<discord-embed title="sashslis33333221121212" slot="embeds" color="#229400"><discord-embed-description slot="description">Вы забрали <img src="<a href="https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"</a> alt="MRPCO_Money" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> <strong>350,000</strong> у пользователя <discord-mention type="user">User#1225799924151488547</discord-mention>.</discord-embed-description></discord-embed>
+</discord-message>
+<discord-message id="m-1477887753768144978" timestamp="2026-03-02T04:38:18.325Z" profile="1413807061883420744">
+<discord-embed title="Баланс mafunist2" slot="embeds" color="#229400"><discord-embed-description slot="description"><strong>Наличные:</strong> <img src="<a href="https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"</a> alt="MRPCO_Money" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> 5,144<br/><strong>В банке:</strong> <img src="<a href="https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"</a> alt="MRPCO_Money" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> 350,814<br/><strong>Всего:</strong> <img src="<a href="https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdn.discordapp.com/emojis/1425355727048015963.png?size=32"</a> alt="MRPCO_Money" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> 355,958</discord-embed-description><discord-embed-footer slot="footer">Ранг в рейтинге: #30</discord-embed-footer></discord-embed>
+</discord-message>
+<discord-message id="m-1477887781081583769" timestamp="2026-03-02T04:38:24.837Z" profile="970713754411089940">
+<discord-mention type="user">Генерал - Гавс</discord-mention> все
+</discord-message>
+<discord-message id="m-1478022191990702090" timestamp="2026-03-02T13:32:30.895Z" profile="1431264187228885033">
+И еще кое что
+</discord-message>
+<discord-message id="m-1478022922483404891" timestamp="2026-03-02T13:35:25.058Z" profile="1431264187228885033">
+Можно вы мне будете скидывать по примерно по 100 к на баланс , я их потом буду сотрудникам ДПС скидывать
+</discord-message>
+<discord-message id="m-1478023016477884497" timestamp="2026-03-02T13:35:47.468Z" profile="1431264187228885033">
+как зарплата
+</discord-message>
+<discord-message id="m-1478045634312536127" timestamp="2026-03-02T15:05:39.980Z" profile="1195675629010558986">
+<discord-reply slot="reply" author="apchi_2002" avatar="https://cdn.discordapp.com/avatars/1431264187228885033/5fa9adcd0e7601c882c505e76611ee7d.webp" role-color="#be0000"><span data-goto="1478022922483404891">Можно вы мне будете скидывать по примерно по 100 к на баланс , я их потом буду сотрудникам ДПС скиды</span></discord-reply>Нет
+</discord-message>
+<discord-message id="m-1478045723475050607" timestamp="2026-03-02T15:06:01.238Z" profile="1195675629010558986">
+Можем  только снять
+</discord-message>
+<discord-message id="m-1478046105030885500" timestamp="2026-03-02T15:07:32.208Z" profile="1431264187228885033">
+Эх ладно
+</discord-message>
+<discord-message id="m-1478046125217943642" timestamp="2026-03-02T15:07:37.021Z" profile="1413807061883420744">
+<img src="<a href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"" style="color: #00aff4; text-decoration: underline;" target="_blank">https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg"</a> alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/>Тикет закроется через несколько секунд...
+</discord-message>
+</discord-messages></body></html>
